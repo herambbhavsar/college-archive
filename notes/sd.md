@@ -15,6 +15,7 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 - Becomes STRUCTURAL when it needs COORDINATION (many actors), CONTINUITY (over time), TRUST (mostly invisible) — healthcare, banking, government = large service systems.
 - SERVICE CYCLE: ENTICE → ENTER → EXPERIENCE → EXIT → EXTEND (attract, orient, use, retain). Repetitive → CONSISTENCY + RELIABILITY, yet NOVEL each time; end-to-end and holistic, with human agents.
 
+[FIG:fig/sd_000_24.jpg|The service cycle: entice → enter → experience → exit → extend]
 # 1.2 Service design — definition and value exchange
 - DEFINITION: planning and organising the PEOPLE, INFRASTRUCTURE and PROCESSES of a service so the experience is COHERENT for the customer and EFFICIENT for the business.
 - Objective: more USEFUL, USABLE, DESIRABLE for clients; EFFICIENT, EFFECTIVE for organisations. Designs FRONTSTAGE with BACKSTAGE. Output: implementable designs (documents, mock-ups, metrics) + operational changes. People, PROPS (touchpoints), processes. Holistic — new and existing services.
@@ -57,6 +58,7 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 - Layers: MACRO (social system, policy), MESO (organisation strategy), MICRO (person-to-person operations).
 - Core tools: personas, journey maps, service blueprints, stakeholder & ecosystem maps, service prototypes.
 
+[FIG:fig/sd_005_25.jpg|Service design ⊃ CX ⊃ UX ⊃ UI]
 # 1.6 Ecosystem, skills, research areas, ITIL, mini project
 - Ecosystem sets BOUNDARY CONDITIONS; too many variables for a math model. Inputs (politics, economy, expectations, regulation, societal needs, technology) → PEOPLE at centre surrounded by policy, technology & data, partners, institutions & culture, funding, operations → outcomes (value, performance, equity, trust, impact), inside shifting context (political cycle, markets, social, tech, environment, global events).
 - Skill pyramid: high (education, knowledge services) → medium (business, health, trade, transport, public admin) → low (agriculture, manufacturing, HORECA). Skills decide cost; ROI higher in skilled services; scalable in numbers, geography, economic strata. Map external variables (SWOT).
@@ -133,6 +135,8 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 - ECOSYSTEM MAP (NN/g home buying: buyer at centre, family, agent, banks, inspector, builder, seller…). Assignment: campus ecosystem for a new student (hostel, mess, library, medical, bank, transport, etc.).
 - STAKEHOLDER MAP (motivation / give-and-take matrix): roles and relationships; influence × interest quadrant; find partners and blockers; concentric (core staff → customers → constituents → suppliers, alliances).
 
+[FIG:fig/sd_030_26.jpg|Ecosystem map — buying a home (NN/g)]
+[FIG:fig/sd_031_27.jpg|Stakeholder map]
 # 3.4 Service blueprint
 - Maps tasks as they happen/should happen; deeper than a journey map; one persona, one journey; HIGH-altitude (overview) vs LOW-altitude (detailed management tool).
 | Row | Restaurant |
@@ -149,10 +153,12 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 | Journey map | Service blueprint |
 | User's experience: does, thinks, feels | Service behind it: processes, people, systems |
 | Find experience opportunities | Find bottlenecks, improve delivery |
-[IMG:sd_anatomy.png|Anatomy of a service blueprint (Izac Ross)]
 - TASK FLOWS link blueprint to back-end (first modelling skill): "find a service", "book a slot". Flowchart symbols: oval start/end, parallelogram I/O, rectangle process, diamond decision; SWIM LANES for many actors. Prototypes: storyboards, role-play, walkthroughs, co-creation.
 - Figma design system (7): tokens → base components → variants/states → patterns → documentation → publish library → govern & scale. System-design awareness: latency/throughput, CAP theorem, load balancing, caching, sharding, replication, scaling; NGINX, Redis, CDNs, S3, Docker/Kubernetes, Kafka; microservices, circuit breaker; health checks, failover, monitoring.
 
+[FIG:fig/sd_034_28.jpg|Anatomy of a service blueprint (Izac Ross)]
+[FIG:fig/sd_035_29.jpg|Journey map vs service blueprint]
+[FIG:fig/sd_040_30.jpg|Task flows: finding a service, booking a slot]
 # UNIT 4 — SYSTEMS ANALYSIS & MODELLING (L7–L8)
 
 # 4.1 Front end–back end, information modelling, where to start
@@ -166,6 +172,7 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 | Operational | Line managers | Detailed, structured | Reorder list, daily ledger |
 - Data sets → database → tables; designer visualises information hierarchy at CEO level.
 
+[FIG:fig/sd_040_31.jpg|Integrating front end with back end]
 # 4.2 Context diagram, DFD, levelling, rules
 - Notations: context diagrams, document flow diagrams, DFDs, E-R diagrams.
 | DFD element | Symbol | Rule |
@@ -173,7 +180,6 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 | Data flow | Arrow | Noun name |
 | Data store | Open rectangle "D1" | Number + noun |
 | External entity | Square | Noun |
-[IMG:sd_dfd_symbols.png|DFD symbols]
 - Document flow (offices passing paper) → LOGICAL DFD (processes + stores) by iteration; designers must get this right (handshake with back end).
 - CONTEXT DIAGRAM = FIRST step: whole system as ONE process (process 0) + all external entities; draws the boundary. Mess management: students (rebates/payments ↔ bills), vendors (requisitions ↔ supplies, payments), mess secretary (rate, menu), chief warden (overdue bills), mess manager (daily items).
 - LEVELLING: expand process p into p.1…p.n (1 Billing → 1.1 daily rate, 1.2 student bills, 1.3 reconcile, 1.4 meals; 2 Stores; 3 Perishables). New external entity must be added at context level.
@@ -181,6 +187,8 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 - Small example: Vendor → invoice → "stores issuing approval" (check delivery) → approved bill → Accountant; updates inventory register. Questions: many vendors, same names, multiple invoices?
 - Analysis steps: requirements → study current system → physical document flow → derive logical system → current logical DFD → new system model (feasibility) → new logical DFD + rules + DATA DICTIONARY.
 
+[FIG:fig/sd_050_32.jpg|Context diagram — mess management system]
+[FIG:fig/sd_050_33.jpg|Expanded DFD for the hostel mess]
 # 4.3 Hostel billing case, E-R, UML, AI, 7 steps
 - Hostel billing: blueprint at level 0 (personas/journey or storyboard) → info sources (users; forms, receipts, registers; admin tree: chief warden → wardens → mess secretary, manager, accountant, store keeper, cook; rule books; hardware/software) → document flow → three teams: PURCHASE (daily/occasional/bi-weekly buys → verify → monthly payment), MESS ACCOUNTS (extras, rebates → daily rate → bills → receipts → overdue), STORES (menu → issue items → stock register → reorder) → logical DFDs → context → levelling.
 | E-R element | Symbol | Meaning |
@@ -191,3 +199,5 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 - UML: use cases = ovals; actors = stick figures (college registration, ACME bank — "insufficient funds" extends withdraw). OOP chart: classes with attributes and links.
 - AI: non-agentic (input → LLM → output) vs agentic (plan, tools, evaluate, revise) vs AI agents (goal → plan → act → evaluate → feedback). Patterns: multi-agent, self-reflection, tool use, CodeAct, agentic RAG, ReAct. LLM: tokens → embeddings → transformer → prediction.
 - SYSTEMS APPROACH (7 steps): (1) define THE problem; (2) understand & define the system (entities, boundaries, activities); (3) find variables; (4) relate variables; (5) choices to improve; (6) costs (ROI + ROB) and risk; (7) reconfigure components. e.g., laptop pickup: downtime → loaner pool, daily pickup route, app booking.
+
+[FIG:fig/sd_052_34.jpg|E-R diagrams: entity, relationship, entity]

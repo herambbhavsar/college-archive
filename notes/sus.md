@@ -14,6 +14,7 @@ Reduced revision notes for Sustainable Design (DS3010, Dr. Amrita Bhattacharjee)
 - World: fossil fuels 82% (oil 35.8, gas 25.8, coal 19.4), renewables (excl. large hydro) 11%, nuclear 5%, large hydro 2%.
 - OIL CRISIS Oct 1973: OAPEC (+ Egypt, Syria, Tunisia) embargo and price control in response to US support for Israel → fuel rationing ("10 gallons per customer"). Turning point → search for NON-CONVENTIONAL energy.
 
+[FIG:fig/sus_003_35.jpg|India's energy basket]
 # 1.2 Classification of energy
 | Basis | Type 1 | Type 2 |
 | Usability | PRIMARY — in nature before conversion (coal, crude, sunlight, wind, rivers, vegetation, radioactive material) | SECONDARY — after conversion (electricity, thermal energy, hydrogen) |
@@ -32,6 +33,7 @@ Reduced revision notes for Sustainable Design (DS3010, Dr. Amrita Bhattacharjee)
 - ECOLOGY: relationship between organisms and environment; nature self-cleans and recycles (water, nitrogen, carbon cycles) in equilibrium; excess human interference disturbs it.
 - GREENHOUSE EFFECT: natural (keeps earth warm) vs human-enhanced (more GHG → less heat escapes → warming). GHGs: CO2, methane, N2O, HFCs, CFCs, HCFCs, SF6, ozone.
 
+[FIG:fig/sus_014_36.jpg|Natural vs human-enhanced greenhouse effect]
 # UNIT 2 — SUSTAINABLE DESIGN: DEFINITION AND PRINCIPLES
 
 # 2.1 Definition, principles, strategies
@@ -45,6 +47,8 @@ Reduced revision notes for Sustainable Design (DS3010, Dr. Amrita Bhattacharjee)
 | Optimise OPERATION & MAINTENANCE | Easy servicing, monitoring |
 - How: DESIGN FOR PERFORMANCE · PRIORITISE RE-USE · DESIGN EFFICIENCY FOR REDUCED EMBODIED CARBON (carbon from making/transporting materials).
 
+[FIG:fig/sus_018_37.jpg|Principles of sustainable design]
+[FIG:fig/sus_019_38.jpg|How it can be done]
 # UNIT 3 — SOLAR ENERGY
 
 # 3.1 Light and the solar cell
@@ -54,8 +58,13 @@ Reduced revision notes for Sustainable Design (DS3010, Dr. Amrita Bhattacharjee)
 - SOLAR CELL: PN junction; photons free electrons; junction field separates charges → ~0.5–0.6 V DC per cell; front grid + back contact collect current.
 - Construction: front metal grid, antireflective coating, N layer ~0.2 µm, P base ~300 µm, back contact. MONO (single crystal, black, rounded corners, more efficient) vs POLY (blue, square, cheaper).
 - PV MODULE layers: glass → EVA → cells → EVA → Tedlar back cover (36/60 cells in series).
-[IMG:rv_solarcell.png|Solar cell — PN junction, front and back contacts (lecture slide)]
 
+[FIG:fig/sus_022_39.jpg|Wave–particle duality]
+[FIG:fig/sus_023_40.jpg|Photoelectric effect]
+[FIG:fig/sus_024_41.jpg|Semiconductor]
+[FIG:fig/sus_025_42.jpg|Solar cell]
+[FIG:fig/sus_026_43.jpg|Solar cell construction]
+[FIG:fig/sus_027_44.jpg|Solar PV module]
 # 3.2 Solar thermal systems and products
 | System | Key working |
 | Water heater | Tilted collector (flat/evacuated tubes) → thermosiphon → insulated tank; cold make-up tank, vent |
@@ -67,6 +76,11 @@ Reduced revision notes for Sustainable Design (DS3010, Dr. Amrita Bhattacharjee)
 - Small products: solar calculator, toy helicopter, radiometer, sun chime, solar torch (battery charged by day), solar tree charger.
 - Large/outdoor: concentrated solar power (heliostats → tower), Charanka solar park (Patan, Gujarat), solar pumps, street lights, vaccine fridge on camel, village power, ISS arrays, solar traffic signals.
 
+[FIG:fig/sus_029_45.jpg|Solar water heater]
+[FIG:fig/sus_030_46.jpg|Space heating]
+[FIG:fig/sus_031_47.jpg|Space cooling]
+[FIG:fig/sus_033_48.jpg|Cooling systems]
+[FIG:fig/sus_034_49.jpg|Solar cookers]
 # 3.3 Bio-inspired solar design
 | Idea | Inspiration | Benefit |
 | Largest solar tree — CSIR-CMERI, Durgapur | Tree canopy | More power on small land |
@@ -76,6 +90,10 @@ Reduced revision notes for Sustainable Design (DS3010, Dr. Amrita Bhattacharjee)
 | Nanohole thin films | Black butterfly wing (~500 nm holes) | Higher absorption |
 | Flexible solar | — | Strips, bags, tents |
 
+[FIG:fig/sus_051_50.jpg|Fibonacci solar tree]
+[FIG:fig/sus_052_51.jpg|Fractal solar cell]
+[FIG:fig/sus_053_52.jpg|Sunflower heliotropism]
+[FIG:fig/sus_054_53.jpg|Butterfly-wing solar cell]
 # UNIT 4 — WIND ENERGY
 
 # 4.1 Origin, height variation, turbine characteristics
@@ -87,14 +105,18 @@ Reduced revision notes for Sustainable Design (DS3010, Dr. Amrita Bhattacharjee)
 | Rated | Reaches rated power |
 | Furling/cut-out (~25 m/s) | Stops to protect itself |
 - Regions: low speed (no power) → maximum power point region (P ∝ V³) → constant power → furling. Power–duration curve (8760 h/yr): areas below cut-in (GAF), above cut-out (CDOE) and above rated (BCB″) are untapped; hatched area = annual energy output.
-[IMG:rv_windcurve.png|Wind turbine power curve — cut-in, rated and cut-out speeds (lecture slide)]
 
+[FIG:fig/sus_058_54.jpg|Origin of wind]
+[FIG:fig/sus_060_55.jpg|Wind speed with height]
+[FIG:fig/sus_061_56.jpg|Wind speed characteristics]
+[FIG:fig/sus_062_57.jpg|Power–duration curve]
 # 4.2 Wind applications, hybrid, India
 - Mechanical: sail-assisted ships, water-pumping windmills, home heating. Electrical: grid-connected (turbine → inverter → meter → grid) or stand-alone (rotor + tail + generator + tower → battery → lights/radio/pump).
 - Small stand-alone: remote home, Niama (Morocco) water supply, Finnish coastguard weather station, cattle water, Antarctic hut, wind-powered boat. Intermediate: Kotzebue (Alaska, 10 turbines), Caribbean wind/PV hybrid, Bergey 10 kW (Xiao Qing Dao, China), Krasnoe Island (Russia). Farms: Altamont Pass (USA), Horse Hollow Texas 735 MW, offshore Denmark.
 - HYBRID wind + PV: PV → DC/DC and turbine → AC/DC → DC bus → charge controller ↔ battery → DC loads/dump load + inverter → AC loads. Sun and wind peak at different times → reliable, smaller battery.
 - India: NIWE wind power density map — best on coasts/ghats of TN, Gujarat, Karnataka, Maharashtra, AP, Rajasthan. World capacity ~24,000 MW (2001) → ~239,000 MW (2011).
 
+[FIG:fig/sus_082_58.jpg|Hybrid wind + PV system]
 # UNIT 5 — ENERGY-EFFICIENT BUILDINGS (INDIAN CASE STUDIES)
 | Climate | Goal | Strategies |
 | Cold & cloudy | Gain & keep heat | South glazing/sunspaces, solar walls, air heaters, insulation, double glazing, air-lock lobby |
@@ -125,6 +147,7 @@ Reduced revision notes for Sustainable Design (DS3010, Dr. Amrita Bhattacharjee)
 | Slows a linear system; downcycling | Circular; waste = food; upcycling |
 - Example: C2C book printed (Melcher Media) on waterproof, upcyclable synthetic paper.
 
+[FIG:fig/sus_104_59.jpg|Take → make → waste: cradle to grave]
 # 6.2 Learning from nature and the two cycles
 - Trees' benefits: shade & heat protection, mental health, air quality, stormwater & water quality, energy savings, economy. Herman Miller biophilic offices. BIOPHILIA = human tendency/desire to connect with nature. "Growth for the sake of growth is the ideology of the cancer cell" — Edward Abbey. Leaf-cutter ants farm fungus (closed loop). UPCYCLING — shipping-container house.
 - EARTH = CLOSED DYNAMIC SYSTEM (water cycle: evaporation, condensation, precipitation, collection); 4 spheres: ATMOSPHERE, GEOSPHERE (lithosphere), HYDROSPHERE, BIOSPHERE; human activity at the centre.
@@ -132,8 +155,11 @@ Reduced revision notes for Sustainable Design (DS3010, Dr. Amrita Bhattacharjee)
 | Plants → production → product → use → BIO-DEGRADATION → biological nutrients | Production → product → use → RETURN & DISASSEMBLY → technical nutrients |
 | e.g., compostable packaging, natural fibres | e.g., leased washing machine remanufactured |
 - Circular economy (Ellen MacArthur): biological cascades (composting, biogas, restoration); technical loops: maintain → reuse → refurbish/remanufacture → recycle; minimise energy recovery & landfill leakage.
-[IMG:rv_cycles.png|Biological and technical cycles (lecture slide)]
 
+[FIG:fig/sus_124_60.jpg|Earth as a closed system]
+[FIG:fig/sus_125_61.jpg|Four spheres]
+[FIG:fig/sus_128_62.jpg|Biological and technical cycles]
+[FIG:fig/sus_127_63.jpg|Circular economy]
 # UNIT 7 — NATURE INSPIRED DESIGN (NID)
 
 # 7.1 NID principles and wheel
@@ -155,4 +181,7 @@ Reduced revision notes for Sustainable Design (DS3010, Dr. Amrita Bhattacharjee)
 | FOODWEB | Opportunities and actors in the surrounding ecology | Food-web diagram |
 | SYMBIOSIS | Right partners for INDUSTRIAL SYMBIOSIS (waste → resource) | BLOCK crash barrier |
 - More examples: Colorwave 650 printer (reusable cartridge carton), Philips nature-inspired relaxation space, FESTO Bionicopter (drone scares birds like a predator). Closing: "Civilization is always a race between learning and disaster" — H. G. Wells.
-[IMG:rv_nidwheel.png|The NID wheel (lecture slide)]
+
+[FIG:fig/sus_131_64.jpg|NID principles]
+[FIG:fig/sus_135_65.jpg|The NID wheel]
+[FIG:fig/sus_144_66.jpg|Product life map (Ecosmart)]

@@ -75,6 +75,9 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 - MISSION ∩ VISION = PURPOSE. Vision: inside→out (push, feeling, passion). Mission: outside→in (pull, sensing, zeal, accomplish). Purpose = reason to exist beyond profit.
 - Startups can start envisioning in the middle (goals first). Pyramid: mission → values → vision → strategy → balanced scorecard → implementation → personal plans.
 
+[FIG:fig/dm_015_0.jpg|Corporate pyramid: Vision → Mission → Objectives → Strategies, Goals, Plans → Programmes (marketing, manufacturing, design)]
+[FIG:fig/dm_016_1.jpg|Pyramid from mission and values down to personal plans]
+[FIG:fig/dm_016_2.jpg|Mission ∩ Vision = Purpose]
 # UNIT 3 — STRATEGY (1–2 Sep)
 
 # 3.1 Strategy, tactics, pyramids
@@ -88,6 +91,8 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 - Partaker pyramid: vision (why) → mission (what) → core values (how) → strategic priorities (2–5 bets) → long-term goals (3–5 yrs) → initiatives → strategies → tactics → action plan.
 - Planning funnel: inputs (values, history, ideas, trends) → mission → market → key success factors → SWOT → assumptions → ideal → key result areas → SMART objectives (Specific, Measurable, Aggressive, Realistic, Time-based) → strategies → action plans (who/what/when).
 
+[FIG:fig/dm_021_3.jpg|The strategy pyramid (McGuinness): purpose → strategy → execution]
+[FIG:fig/dm_022_4.jpg|Pyramid of strategy: vision, mission, core values, priorities, goals, initiatives, strategies, tactics, action plan]
 # 3.2 Levels of strategy & analysis checklist
 | Level | Concern |
 | BUSINESS | How one firm/unit competes (customers, competitors) |
@@ -100,6 +105,7 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 1. Study corporate strategy. 2. Study marketing, financial, production strategies. 3. Analyse product portfolio (INTERNAL design audit). 4. SWOT vs competition (EXTERNAL design audit). 5. Future scenarios by PREDICTIVE ANALYTICS. 6. Plan to embed DESIGN POLICY (studio/functional level). 7. Plan implementation (operational). 8. Implement (execution). 9. DE-BRIEF with documentation.
 - Design strategy sits between internal (client, business strategy, brand) and external (society, market) factors; easier in a design-thinking culture.
 
+[FIG:fig/dm_024_5.jpg|How to plan a design strategy: 9 steps, between internal and external factors]
 # 3.4 Blue Ocean & product-level strategy
 | Red Ocean | Blue Ocean (Kim & Mauborgne, 2005) |
 | Compete in existing market | Create uncontested market |
@@ -111,6 +117,7 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 - Product-level planning questions: teamwork, marketing–production coordination, how long products stay profitable, future markets, competitive changes, IPR/govt policy, technology. User-trend radar: lifestyle, fashion, taste, media trends; fads vs long-term shifts.
 - PRODUCT LINE = related products (milk: full fat, semi-skimmed, skimmed). PRODUCT MIX = all lines (width × depth). MARKETING MIX 4Ps: Product, Price, Place, Promotion.
 
+[FIG:fig/dm_025_6.jpg|Red Ocean vs Blue Ocean strategy]
 # UNIT 4 — BUSINESS PLANNING & STARTUPS (3 Sep)
 
 # 4.1 Plan and business plan
@@ -131,6 +138,8 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 | Timing | Too early/late |
 | Capital | Out of cash → shutdown |
 
+[FIG:fig/dm_032_7.jpg|MVP: traditional approach vs MVP approach]
+[FIG:fig/dm_034_8.jpg|Startup killing zones: team, market, product, timing, capital]
 # 4.3 Company type, registration, pitching, consultancy
 - 3 irreversible decisions: (1) TYPE — Pvt Ltd (scalable, investor-preferred), LLP (flexible, low compliance, no equity funding), OPC (solo, limited liability, full control), partnership/proprietorship (easy, not scalable, ~₹40 lakh ceiling); (2) OWNERSHIP, roles & equity; (3) BRAND identity — name, trademark, domain, handles (register early).
 - Registration: type → DSC → DIN → name reservation → MoA & AoA → SPICe+ → Certificate of Incorporation → PAN & TAN → bank account → INC-20A within 180 days. Golden rule: separate personal and company finances.
@@ -146,9 +155,10 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 # 5.1 Product management and PLC
 - Product management in DM: product planning & development (R&D, usability engg.), brand management (positioning, image, visual communication), corporate planning (user tracking, competition, strategy, policy), PLC monitoring (feedback, ROI, design audit, documentation). Project life-cycle wheel: planning → concept → detailed design → construction → operations & maintenance → benchmark vs brief.
 - PLC stages: introduction → growth → maturity → decline → death/abandonment. Introduction = high cost, NEGATIVE cash flow; profit peaks BEFORE sales (LAG); ROR slope = rate of return.
-[IMG:rv_plc.png|PLC — cost, sales revenue, net revenue and cash flow (lecture slide)]
 - Strategies: (1) BY DESIGN — innovation restarts the PLC, or renovate/discount; (2) re-advertise as improved/imported; (3) buy out a competing brand; (4) free service for life/discount; (5) buy one get one (dead inventory). PLC analysis is a full-time job; designers increasingly do it.
 
+[FIG:fig/dm_042_9.jpg|Product life cycle: cost, sales revenue, net revenue and cash flow]
+[FIG:fig/dm_043_10.jpg|Strategy 1 — innovation restarts the product life cycle]
 # 5.2 Business analytics
 - BA: skills, technologies, practices for iterative exploration of past performance (statistics, descriptive & predictive modelling) → insight & planning. Answers: why happening? if trends continue? what next? best possible (optimise)? expectations, future sales, quality, best suppliers/customers, campaigns.
 | Type (Gartner) | Question | Output |
@@ -162,6 +172,7 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 - DIKW: data → information → skill → knowledge → insight → wisdom. Tools: SAS, R, SPSS, SQL, Excel dashboards. Data on users, competition, company health/performance, politics/policy → investment in innovation.
 - Models: linear (relationship), generalised additive (non-parametric), logistic regression (class probability), survival (reliability), decision trees (segment population), Bayesian (conditional probability). ML: supervised, unsupervised, reinforcement. Data structures (trees, stacks, arrays, heap, linked list) and algorithms (sort, search, hashing, DP…) → models for predicting.
 
+[FIG:fig/dm_044_11.jpg|The fields of data science]
 # UNIT 6 — BRAND MANAGEMENT (7 Sep)
 
 # 6.1 Brand meaning
@@ -184,6 +195,10 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 - Goals: AWARENESS (recognition, recall, reach → visibility) · TOUCHPOINTS (digital, physical, service → trust) · LOYALTY (satisfaction, connection, rewards → repeat purchase, advocacy).
 - Layers (outer → inner): aesthetics (senses) → interaction (behaviour) → function (performance) → construction (reliability) → meaning (TRUST). Revealed layer by layer for memory retention.
 
+[FIG:fig/dm_052_12.jpg|What is branding? — branding pyramid]
+[FIG:fig/dm_053_13.jpg|Brand strategy elements and the complete brand]
+[FIG:fig/dm_052_14.jpg|Brand strategy (core, positioning, persona) and branding goals]
+[FIG:fig/dm_053_15.jpg|Brand layers: aesthetics → interaction → function → construction → meaning]
 # 6.3 Equity, image, personality, personal brand
 | Equity measure | Meaning |
 | Awareness | How many recognise it |
@@ -213,6 +228,7 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 - MENTAL BLOCK: stuck on old idea; lazy brain (40 W). Techniques: BRAINSTORMING, SCAMPER (Substitute, Combine, Adapt, Modify, Put to other use, Eliminate, Reverse).
 - AI: creates by copying/pixel manipulation; cannot think; output not IPR-protected. Tips: make AI ask YOU questions; teammate not slave; expand imagination; don't follow it; coach/mentor; role-play; skip its first answer; seek hidden pathways; "artificial intuition". Considerations: human intuition + AI, human-centred, privacy/ethics, resistance, AI terms.
 
+[FIG:fig/dm_060_16.jpg|Creativity process: awareness → incubation → illumination → verification → implementation → marketing]
 # 7.2 Design thinking
 - d.school: EMPATHISE → DEFINE → IDEATE → PROTOTYPE → TEST (Prof. Yammiyavar: textbooks made DT a buzzword). Better: problem space (understand, observe, POV) → solution space (ideate, prototype, test), diverge–converge.
 - Characteristics: designerly thinking at each step; human-centred EMPATHY (not sympathy); observing & questioning; CRITICAL thinking to define the real problem; cross-domain ideation by ABDUCTION; hands-on prototyping (fail early); tests to validate. Whole 4-year design curriculum = DT.
@@ -220,6 +236,7 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 - DT cannot guarantee success. IDEA ≠ CONCEPT (concept = representation of idea); not every idea is creative; idea = SEED of a creative solution.
 - Recap of problem solving: awareness (perceptual) → definition → understanding (conceptual) → resource evaluation (INDUCTION) → alternatives (DEDUCTION) → insight (SYNTHESIS, paradigm shift) → choice → verification → conclusion ("designing is celebrating").
 
+[FIG:fig/dm_062_17.jpg|Design thinking models: d.school steps, problem and solution space, diverge–converge]
 # UNIT 8 — INNOVATION (9 Sep)
 
 # 8.1 Innovation vs creativity vs invention
@@ -232,6 +249,8 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 - Invention = new physical device purposefully built (goal-directed); innovation broader (ideas, processes, methods, strategies).
 - DESIGN = CREATION (non-existing; thought) + INVENTION (new; implementation) + INNOVATION (novel; improvement). Scientists discover, engineers invent, designers design, everyone innovates. Edison: 1% inspiration, 99% perspiration (inspiration decides quality). "Think with hands, do with minds."
 
+[FIG:fig/dm_067_18.jpg|Creativity vs innovation]
+[FIG:fig/dm_068_19.jpg|Design = creation + invention + innovation]
 # 8.2 Innovation frameworks & types
 - DT (users–technology–market), IDEO (people/desirability, business/viability, technology/feasibility).
 | Innovation matrix | Domain not defined | Domain defined |
@@ -242,6 +261,8 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 - KAIZEN (kai change + zen good): continuous small planned improvements (post-WWII quality circles). JUGAAD: frugal one-off fix — a starting point, NOT innovation (no planned end offering, may fail scrutiny). Improvisation and REVERSE ENGINEERING (copying) ≠ innovation.
 - All inventions start creative; all inventions are innovations but not vice versa; not all creative solutions become innovations. Design ← invent ← innovate ← be creative.
 
+[FIG:fig/dm_069_20.jpg|Innovation frameworks and the innovation matrix]
+[FIG:fig/dm_069_21.jpg|The four Ps of innovation]
 # UNIT 9 — IPR (10 Sep)
 
 # 9.1 Basics and types
@@ -259,6 +280,7 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 - Enforcement: civil, criminal, administrative, technological (simultaneous; damages). Copyright infringement = CRIMINAL offence (magistrate complaint or police FIR).
 - Authority: Ministry of Commerce & Industry → Controller General of Patents, Designs & Trade Marks → Designs (Kolkata), Patent offices (Kolkata, Delhi, Mumbai, Chennai), TM registry (+ Ahmedabad), GI registry (Chennai), Patent Info Service (Nagpur). Facilitation: TIFAC, NRDC.
 
+[FIG:fig/dm_076_22.jpg|IPR authority in India]
 # 9.2 Patents, copyright, design, trademarks, management
 - Patent = contract inventor ↔ government: exclusive rights for full disclosure. Conditions: NOVELTY (not in global state of art), INVENTIVENESS (non-obvious to expert), USEFULNESS. Term 20 years; licensable. Procedure: file → examination & novelty search → accept/refuse → Gazette notification → opposition → grant.
 - Not patentable: food/medicine/chemical substances (per slide), discovery of principle (Raman effect), new use/property of known substance, mere admixture, mere rearrangement of known devices, testing methods, agriculture/horticulture methods, medical treatment processes, atomic energy.
@@ -268,3 +290,5 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 - Managing IPR: case diary/sketch book — numbered pages, no overwriting, signed & witnessed; don't publish before filing; NDAs; disclose only what the form needs; legal advice. Know-how = trade secret; NDA before demos.
 - CREATIVE COMMONS (2001, Lessig): "some rights reserved". Licences (most → least open): BY, BY-SA, BY-ND, BY-NC, BY-NC-SA, BY-NC-ND (BY attribution, SA share-alike, NC non-commercial, ND no derivatives).
 - AI & IPR: only HUMANS are creators (AI artwork authorship rejected — DABUS). AI tools: The Lens, PatentPal, Clarivate, TrademarkNow, Markify, Turnitin, Copyleaks.
+
+[FIG:fig/dm_082_23.jpg|The six Creative Commons licences]

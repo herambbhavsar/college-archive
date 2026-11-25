@@ -74,16 +74,18 @@ Reduced revision notes for Visual Ergonomics (OE3D16), following the syllabus to
 | Flash rate | 2 |
 - Colour best for search (Christ 1975); letters/numbers best for identifying meaning; ≤ 2 code dimensions combined.
 
+[FIG:fig/ve_000_67.jpg|Mandatory-action symbols with % recognised (O) and recalled a week later (R) (HFED Fig. 4-16)]
+[FIG:fig/ve_001_68.jpg|Exit-sign designs with % error — filled figures and square backgrounds did better (HFED Fig. 4-17)]
 # T6–T7 Typeface, typography and colour
 - Visibility → legibility → readability. Type matters most in poor viewing, critical info, distance, poor-vision users.
 - Stroke width:height — black on white 1:6–1:8; white on black 1:8–1:10 (IRRADIATION); low light ~1:5; luminous 1:12–1:20. Width:height 3:5 (wider 1:1 for back-lit/engraved).
 - Type classes: Roman (serif), Gothic (sans serif — signs/labels), Script, Block. Italics for emphasis; bold for headings & poor conditions.
 - Size: 1 pt = 1/72 in (slug); cap height ≈ 1/100 in per pt; reading distance ~35 cm, 9–11 pt fine; signs for 20/40 acuity.
-[IMG:hf_stroke.png|Stroke width-to-height ratios (HFED Fig. 4-7)]
 - CASE: lowercase > ALL CAPS (word envelope); bigger initial letter helps search. SPACING: close-set type read faster; more interline space reduces striped-pattern discomfort.
 - WORDING: simple, affirmative, active; word order = action order ("Turn off the gas before pushing the green button"). Flesch = 206.835 − 0.846 × syllables − 1.015 × words/sentence (60–70 standard; 90–100 very easy).
 - COLOUR: best for search/counting; few colours for untrained users; always REDUNDANT with text/shape (colour-blind, lighting); contrast essential.
 
+[FIG:fig/ve_002_69.jpg|Stroke width-to-height ratios: black on white vs white on black (HFED Fig. 4-7)]
 # T8 Alignment (Ergonomics for Beginners)
 | Guideline | Detail |
 | No ALL CAPS text | Ascenders/descenders give word shape |
@@ -96,6 +98,11 @@ Reduced revision notes for Visual Ergonomics (OE3D16), following the syllabus to
 | Polarity | Don't keep switching dark/light |
 - Sound: reserve for warnings; avoid frequent beeps; adapt display (digital/analog/warning) to its objective.
 
+[FIG:fig/ve_003_70.jpg|ALL CAPITALS (a) vs lowercase (b) — lowercase gives each word a shape (Ergonomics for Beginners Fig. 3.2)]
+[FIG:fig/ve_004_71.jpg|Plain characters without ornamentation are most legible (Fig. 3.3)]
+[FIG:fig/ve_005_72.jpg|Characters that are easily confused (Fig. 3.4)]
+[FIG:fig/ve_006_73.jpg|Character proportions: ascender, descender, x-height, line spacing, stroke width (Fig. 3.5)]
+[FIG:fig/ve_007_74.jpg|Choose a good contrast — 1 and 10 are most legible (Fig. 3.7)]
 # UNIT C — DISPLAYS AND CRITICAL INFORMATION
 
 # T10 Digital displays and railway reservation form
@@ -126,6 +133,7 @@ Reduced revision notes for Visual Ergonomics (OE3D16), following the syllabus to
 - Key of 30 guidelines: brand name largest; generic slightly smaller; strength & ER near name; NDC on top; expiry/lot on front; horizontal reading; 8th-grade language; dark on light; ≥ 7 pt; one font family; colour redundant; left-aligned; mixed case (WARNING in caps); no italics; no clutter/watermarks; margins; line drawings of tablets; few boxes.
 - New template: low density, black on white, order brand → generic → strength → NDC, red for form/alerts. Test: 20 pharmacists, real bottles + EYE TRACKING, 60 labels, imaginary drug names → "after" labels faster on ALL tasks; biggest gains where old labels were unclear.
 
+[FIG:fig/ve_008_75.jpg|Examples of drug labels used in the test (Quinn et al., Fig. 3)]
 # UNIT D — MAPS, ROADS, SCREENS, AIRPORTS
 
 # T13 Cartography and movement in space
@@ -138,6 +146,8 @@ Reduced revision notes for Visual Ergonomics (OE3D16), following the syllabus to
 | Isolation | InfoBand 1 = 1.2–1.6 m; InfoBand 2 = 2.2–3.0 m; no ads |
 | Reassurance | Repeat signs along routes |
 
+[FIG:fig/ve_009_76.jpg|1932 geographic map of the London Underground — hard to use (Degani Fig. 1)]
+[FIG:fig/ve_010_77.jpg|Wayfinding sign for older users: distinctive, consistent, simple, reassuring (Mishler & Neider Fig. 1)]
 # T14 Road safety through VE (Netherlands)
 - Self-explaining roads; "death roads"; 103 drivers rated 14 slides (crosses, mourning cards, text "snel?/haast?").
 | Sign | Danger | Speed |
@@ -161,12 +171,15 @@ Reduced revision notes for Visual Ergonomics (OE3D16), following the syllabus to
 | Hold line dashes WHITE + extended | White = runway side; visible past the nose |
 - Combined cues detected ~20 ft earlier than best single cue — redundancy; whole > sum.
 
+[FIG:fig/ve_011_78.jpg|Runway hold line: dashed side = runway, solid side = taxiway (Fig. 1)]
 # T17 London Underground map (Degani)
 - Geographic map (1932) confusing → Harry Beck (draughtsman) diagram 1933 ("the Diagram"); navigation INSIDE the network matters, not geography.
 - ABSTRACTION: lines at 0°, 90°, 45°; ticks for stations, rings for interchanges. INTEGRATION: interchange complexes as units (Aldgate triangle). CONFIGURATION: grid, symmetry along Central Line, strong centre (Circle Line "water flask"), expanded centre / shrunk outskirts, Thames kept. Diagonals restored after removal. Victoria Line proposal = design for users over time.
 - 5 formal principles: skeletal grid of landmarks; keep relative orientation; consistent N/S/E/W; few line angles; minimum direction changes. Delhi/Mumbai metro maps follow Beck.
-[IMG:lon-004.png|Beck's 1933 diagrammatic map]
 
+[FIG:fig/ve_012_79.jpg|Beck's diagrammatic map, 1933 — straight lines, fixed angles, expanded centre (Degani Fig. 2)]
+[FIG:fig/ve_013_80.jpg|Four solutions to the 'Aldgate Triangle' complex, 1965 (Degani Fig. 4)]
+[FIG:fig/ve_014_81.jpg|The underlying grid compared with Mondrian's painting (Degani Fig. 7)]
 # UNIT E — SAFETY, WARNINGS, ENFORCEMENT
 
 # T18 Poison to the touch (Senders; Bogner)
@@ -184,10 +197,12 @@ Reduced revision notes for Visual Ergonomics (OE3D16), following the syllabus to
 - Varied in colour, view, text/diagram, signal word, orientation, sketch, information. None stated CONSEQUENCE in words; instructions vague.
 - Improved: "CAUTION — Wide right turns. Yield the right of way to truck."; signal word on top; side-view collision sketch with starburst; black mixed-case left-aligned text on white/yellow.
 
+[FIG:fig/ve_015_82.jpg|Preliminary improved wide-turn warning sign (Aurelio & Newman Fig. 5)]
 # T21 Parking enforcement (Chicago 1990)
 - 10% tickets paid, 17 million unpaid ($420 m) → 10 months to redesign → payment 65%, $65 m/year, only 7% contested, almost no confused calls.
 - Systems thinking (image-based adjudication); ticket = touches whole system → concurrent team (users, vendors, beat police, graphic designer); pocket-size book; 9 violations = 80% → CHECK BOXES; handwriting on LEFT (right-handers standing); white front, ORANGE back with adhesive strip (forcing); handheld defaults; instructions tested until no misreading; users' MENTAL MODEL of 3 options adopted. Lessons: business language, design as investment, compare with current design.
 
+[FIG:fig/ve_016_83.jpg|The redesigned Chicago violation notice (parking ticket), 1990]
 # UNIT F — ILLUSION, ELECTIONS, WAYFINDING
 
 # T22 Jugglery with colour (Williams 2012)
@@ -206,6 +221,8 @@ Reduced revision notes for Visual Ergonomics (OE3D16), following the syllabus to
 - Process: one-stop website, voter accounts (recognition not recall), appointments (prediction aiding). Ballot: progress meter (system status), final check (error prevention), receipt & green-tick feedback with actionable error messages, reversibility, accessibility (size, language, audio, tactile), consistent layout, practice ballot, RANDOMISED candidate order (F-pattern bias).
 - India: EVM name + symbol + photo, beep, VVPAT slip 7 s, NOTA last.
 
+[FIG:fig/ve_017_84.jpg|The 2000 Florida 'butterfly ballot' — about 50,000 votes discarded (Gable et al. Fig. 1)]
+[FIG:fig/ve_018_85.jpg|Prototype ballot summary page: final check, progress, feedback, back/proceed (Fig. 3)]
 # T25 Wayfinding for older adults (Watson 2001)
 - Bob's courthouse story (garage dark, "LL" buttons, tiny map, glare). Wayfinding = what people SEE, THINK, DO to move; abilities: sensory-perceptual, cognitive, motor; "without signs, a guessing game".
 | Ability | Guideline |
@@ -225,6 +242,11 @@ Reduced revision notes for Visual Ergonomics (OE3D16), following the syllabus to
 - Checklists: origin 1935 Boeing 299 crash (gust lock); Johns Hopkins central line (infections 11% → 0%); WHO Surgical Safety Checklist (19 items; complications 11% → 7%). READ-DO vs DO-CONFIRM; benefits (memory, fatigue, standardisation, best practice, teamwork); barriers & solutions (involve users).
 - Medication sheets (Klein & Isaacson): old 9 pt, caps, justified, 12th-grade → new 14 pt, ragged right, plain 9th-grade active language, task order, bold headings, side-effect boxes → faster, more correct, ~90% preferred.
 
+[FIG:fig/ve_019_86.jpg|Cerner's user-centred design cycle (Fig. 1)]
+[FIG:fig/ve_020_87.jpg|Order-status icon iterations — colour shows stage and overdue level (Fig. 4)]
+[FIG:fig/ve_021_88.jpg|Length-of-stay meter iterations — digital time + colour progress bar (Fig. 6)]
+[FIG:fig/ve_022_89.jpg|Modified urine bag (A) with floats, big scale and colour bands vs standard bag (B)]
+[FIG:fig/ve_023_90.jpg|WHO Surgical Safety Checklist — before anaesthesia, time out, sign out]
 # T26 Litigation and human factors
 - Information-processing chain: detection → perception → attention → memory → decision → action.
 | Case | Lesson |
@@ -234,6 +256,8 @@ Reduced revision notes for Visual Ergonomics (OE3D16), following the syllabus to
 | Hot pack burn | Warning lacked signal word, bold, bullets, consequence |
 - Crib collapse (Playskool, 1998): three factors — PERFORMER (child is a user with opposite goals), TASK (foreseeable unsupervised use), ENVIRONMENT; torque tests (children produced 12–18 in-lb vs 5–8.5 needed) + video → test children's products WITH children.
 
+[FIG:fig/ve_024_91.jpg|Hot-pack warning: original (top) vs revised with signal word, bold, bullets, border (Nemire Fig. 2)]
+[FIG:fig/ve_025_92.jpg|How the collapsing rail trapped a child's neck (Fairbrother et al. Fig. 2)]
 # T27 Bus stand and aircraft interior
 - F-4 night near-crash: "I've got it" misunderstood → nobody flying; Type 1 SPATIAL DISORIENTATION (canals miss < 2°/s² roll); handover protocol. Attitude indicator: moving horizon vs moving aircraft (principle of the moving part); needs FOVEAL fixation. Redesign: context-aware audible "BANK RIGHT" + visual cue; alert early; automatic ground-collision avoidance.
 | Bus stand area | VE solution |
@@ -246,3 +270,6 @@ Reduced revision notes for Visual Ergonomics (OE3D16), following the syllabus to
 | Elderly/disabled | Ramps, seating, lighting, tactile paving |
 | Safety | Yellow edge lines, warnings with consequence |
 - Cabin: row numbers on bins, lit exit signs + floor lighting, seat-belt sign (pictogram + light + chime), tested safety cards, lavatory status indicator.
+
+[FIG:fig/ve_026_93.jpg|Traditional Sperry-style attitude indicator: nose down, 30° left bank]
+[FIG:fig/ve_027_94.jpg|Redesigned attitude stabilisation display with 'BANK RIGHT' command]
