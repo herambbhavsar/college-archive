@@ -1,0 +1,63 @@
+{
+"dm":[
+["Which managerial tasks make up P-O-L-I-C-D?",["Planning, Organising, Leading, Implementing, Controlling, De-briefing","Planning, Operating, Listening, Innovating, Costing, Designing","Positioning, Organising, Leading, Investing, Controlling, Delivering","Planning, Outsourcing, Launching, Iterating, Coaching, Documenting"],0,"P-O-L-I-C-D = Planning, Organising, Leading, Implementing, Controlling and De-briefing."],
+["Who defined core competency, and what are its three tests?",["Kotler — price, place, promotion","Prahalad & Hamel — hard to imitate, reusable across markets, adds end-customer value","Drucker — novelty, inventiveness, usefulness","Kim & Mauborgne — value, cost, differentiation"],1,"C.K. Prahalad & Gary Hamel: hard to IMITATE, REUSABLE, adds END-CUSTOMER value."],
+["Mission ∩ Vision gives…",["Strategy","Goal","Purpose","Tactics"],2,"Mission ∩ Vision = PURPOSE — the reason to exist beyond profit."],
+["Which is TRUE of strategy versus tactics?",["Strategy is short term and easy to copy","Tactics are the WHY; strategy is the HOW","Strategy is large-scale, long-term and difficult to copy","Both are reactionary"],2,"Strategy = planning/WHY, long term, hard to copy. Tactics = doing/HOW, short term, easy to copy."],
+["Step 5 of the 9 steps to plan a design strategy is…",["Analyse product portfolio (internal design audit)","Future scenarios by predictive analytics","Embed design policy","De-brief with documentation"],1,"Step 5: future scenarios by PREDICTIVE ANALYTICS. Step 3 is the internal audit, step 9 the de-brief."],
+["Blue Ocean strategy (Kim & Mauborgne, 2005) aims to…",["Beat competition in an existing market","Make competition irrelevant by creating uncontested market space","Exploit existing demand with discounts","Accept the value–cost trade-off"],1,"Blue Ocean creates uncontested markets and new demand; focus is VALUE INNOVATION (e.g., Airbnb)."],
+["In the PLC, which stage has high cost and negative cash flow?",["Introduction","Growth","Maturity","Decline"],0,"Introduction = high cost, NEGATIVE cash flow; profit peaks before sales (lag)."],
+["Which Gartner analytics type answers 'How to make it happen?'",["Descriptive","Diagnostic","Predictive","Prescriptive"],3,"Prescriptive (foresight) gives rules and recommendations — the most valuable type."],
+["In the six levels of a brand, the meta meaning of Mercedes-Benz is…",["German pride","No-nonsense boss","Success","Durability"],2,"Attribute → benefits → culture → personality → profile → META MEANING: SUCCESS."],
+["Levitt's distinction: creativity is ___, innovation is ___.",["Doing new things / thinking up new things","Thinking up new things / doing new things","Invention / renovation","Convergent / divergent"],1,"Creativity = THINKING up new things; innovation = DOING new things."],
+["Why is jugaad NOT counted as innovation?",["It is too expensive","It is a frugal one-off fix with no planned end offering","It is protected by patent","It needs a large team"],1,"Jugaad is a starting point — a one-off fix with no planned offering, may fail scrutiny."],
+["In India, which Act protects the appearance (not function) of a product?",["Patents Act 1970","Copyright Act 1957","Designs Act 2000","Trade Marks Act 1999"],2,"Design registration protects form and appearance only — Designs Act 2000."],
+["The term of an Indian patent is…",["10 years","15 years","20 years","Life + 60 years"],2,"Patent term is 20 years, granted for full disclosure."],
+["Which Creative Commons licence is the MOST open?",["BY-NC-ND","BY-SA","BY","BY-NC"],2,"Most → least open: BY, BY-SA, BY-ND, BY-NC, BY-NC-SA, BY-NC-ND."]
+],
+"sd":[
+["Service design, by definition, plans and organises…",["Logos, colours and fonts of a service","People, infrastructure and processes so the experience is coherent and the business efficient","Only the digital interface","Pricing and promotion"],1,"SD organises PEOPLE, INFRASTRUCTURE and PROCESSES — coherent for the customer, efficient for the business."],
+["The service cycle is…",["Plan → Build → Test → Launch","Entice → Enter → Experience → Exit → Extend","Empathise → Define → Ideate → Prototype → Test","Attract → Sell → Close"],1,"ENTICE → ENTER → EXPERIENCE → EXIT → EXTEND."],
+["What do the letters IHIP stand for?",["Intangible, Heterogeneous, Inseparable, Physical","Intangible, Simultaneous (inseparable), Heterogeneous, Perishable","Interactive, Holistic, Iterative, Personal","Integrated, Human, Inclusive, Planned"],1,"Intangible · simultaneous production & consumption · Heterogeneous · Perishable (empty train seat)."],
+["An empty train seat that is lost once the train leaves shows which characteristic?",["Intangibility","Heterogeneity","Perishability","Simultaneity"],2,"Perishable — unused capacity can't be stored."],
+["Who introduced the service blueprint, and when?",["Lynn Shostack, 1982 (HBR)","Izac Ross, 2005","Lene Nielsen, 1991","Bertalanffy, 1968"],0,"Lynn Shostack's 1982 HBR article 'How to Design a Service'."],
+["In a service blueprint, the line of VISIBILITY separates…",["Customer actions from frontstage","Frontstage actions from backstage actions","Backstage from support processes","Physical evidence from customer actions"],1,"Line of interaction: customer | frontstage. Line of visibility: frontstage | backstage. Line of internal interaction: backstage | support."],
+["Satisfaction when experience EXCEEDS expectation is…",["Satisfied","Neutral","Delighted","Dissatisfied"],2,"Match → satisfied; less → dissatisfied; more → DELIGHTED."],
+["Which of the five SD principles means making the intangible visible?",["Sequencing","Evidencing","Co-creative","Holistic"],1,"Evidencing — blueprints, maps, personas, prototypes."],
+["System ANALYSIS is about ___, system DESIGN is about ___.",["How / what","What it should do / how parts are implemented","Cost / time","Front end / back end"],1,"Analysis = WHAT; design = HOW."],
+["A system fully determined by its inputs, like a calculator, is…",["Stochastic","Deterministic","Chaotic","Adaptive"],1,"Deterministic. Delivery time is stochastic."],
+["Which information system gives 'what if' decision support?",["TPS","MIS","EIS","DSS"],3,"DSS = decision support system. TPS records, MIS reports, EIS serves executives."],
+["In a user story map, the ACTIVITIES row is called the…",["Walking skeleton","Backbone","Release","Swim lane"],1,"Activities = backbone; tasks = walking skeleton; stories sliced into releases."],
+["Which nesting from outer to inner is correct?",["UI ⊃ UX ⊃ CX ⊃ SD","SD ⊃ CX ⊃ UX ⊃ UI","CX ⊃ SD ⊃ UI ⊃ UX","UX ⊃ SD ⊃ CX ⊃ UI"],1,"SD ⊃ CX ⊃ UX ⊃ UI (strategic → operational)."]
+],
+"sus":[
+["Energy classified as CONVENTIONAL vs NON-CONVENTIONAL is split around which event?",["Rio Summit 1992","1973 oil crisis","Bhopal 1984","Industrial Revolution"],1,"Conventional = in use before/around 1973; non-conventional came after the oil crisis."],
+["Electricity, thermal energy and hydrogen are examples of…",["Primary energy","Secondary energy","Non-commercial energy","Fossil energy"],1,"Secondary = after conversion."],
+["Thermal (coal + gas) share of India's electricity basket in the notes is about…",["11.6%","45%","79.1%","95%"],2,"Thermal 79.1%, hydro 11.6%, renewable 5.6%, nuclear 3.2%."],
+["Approximate voltage of one silicon solar cell is…",["0.5–0.6 V DC","1.5 V DC","12 V DC","230 V AC"],0,"Each PN-junction cell gives ~0.5–0.6 V DC."],
+["Mono-crystalline cells compared with poly cells are…",["Blue, square, cheaper","Black, rounded corners, more efficient","Flexible and transparent","Only for thermal heating"],1,"MONO: single crystal, black, rounded corners, more efficient. POLY: blue, square, cheaper."],
+["Wind turbine power in the maximum-power region varies as…",["V","V²","V³","1/V"],2,"P ∝ V³."],
+["The change of wind speed with height is called…",["Wind shear","Furling","Heliotropism","Ekman spiral"],0,"Wind shear — hence tall towers."],
+["Earth-air tunnels (4 × 70 m) are a feature of which building?",["HIMURJA, Shimla","RETREAT (TERI), Gurgaon","WBREDA, Kolkata","HP State Co-op Bank"],1,"RETREAT, Gurgaon (composite climate) — earth-air tunnels, solar chimneys, absorption chillers."],
+["What does the HIMURJA vs HP Co-op Bank comparison show?",["Retrofit is cheaper","Designed-in sustainability costs less (+5.6%) than retrofit (+18.6%)","Solar never pays back","Cold climates can't use passive solar"],1,"Designed-in +5.6% vs retrofit +18.6%."],
+["Eco-efficiency is 'less bad'; eco-effectiveness is…",["Doing more with less","More good — circular, waste = food, upcycling","Regulation only","Downcycling"],1,"Eco-effectiveness (C2C) is positively beneficial; eco-efficiency only slows a linear system."],
+["A leased washing machine that is returned and remanufactured belongs to the…",["Biological cycle","Technical cycle","Water cycle","Carbon cycle"],1,"Technical cycle — return & disassembly → technical nutrients."],
+["The Fibonacci solar tree is inspired by…",["Butterfly wings","Leaf phyllotaxis","Sunflower heliotropism","Leaf veins"],1,"Phyllotaxis (~137°) reduces self-shading. Sunflower → trackers; leaf veins → fractal cell."],
+["'Waste equals food' and 'use current solar income' are principles of…",["Blue Ocean","Nature Inspired Design","Six Sigma","PESTLE"],1,"NID principles."]
+],
+"ve":[
+["Which photoreceptors handle colour and fine detail in bright light?",["Rods (~130 million)","Cones (6–7 million)","Ganglion cells","Iris muscles"],1,"Cones, concentrated at the fovea. Rods: dim light, periphery."],
+["The eye's dark focus resting point is about…",["10 cm","35 cm","1 m","Infinity"],2,"Dark focus ≈ 1 m."],
+["Use AUDITORY rather than visual display when the message is…",["Complex and long","Referred to later","Simple, short and needs immediate action","About location in space"],2,"Sound for short, urgent, time-based messages, or when the person is moving."],
+["Clockwise = increase is an example of which compatibility?",["Conceptual","Movement","Spatial","Modality"],1,"Movement compatibility. Knobs below displays = spatial."],
+["For exit signs, Collins & Lerner (1983) found…",["Outline figures beat filled ones","Filled figures beat outline ones","Text-only is best","Colour doesn't matter"],1,"FILLED > outline (Easterby: solid shape > outline)."],
+["Recommended stroke width:height for white text on black is…",["1:4–1:5","1:6–1:8","1:8–1:10","1:12–1:20"],2,"White on black 1:8–1:10 because of irradiation; black on white 1:6–1:8."],
+["Why is lowercase easier to read than ALL CAPS?",["Lowercase is larger","Ascenders and descenders give a word shape (envelope)","Caps use more ink","Lowercase has serifs"],1,"Word envelope / shape recognition."],
+["Cap height should be at least what fraction of reading distance?",["1/30","1/100","1/200","1/500"],2,"≥ 1/200 (20 m → 10 cm)."],
+["How many surface colours can be used reliably as a code?",["3","5","9","12"],2,"Surface colours 9; colour of lights 3; shapes 5."],
+["Why should colour coding always be redundant with text or shape?",["Printing cost","Colour-blind users and poor lighting","Colour fades","Laws require it"],1,"Redundancy protects colour-blind users and low-light viewing."],
+["Which sign in the Netherlands road study added DANGER meaning without losing SPEED meaning?",["Mourning cards","Text only","Text + roadside crosses","Crosses only"],2,"Text + crosses: danger 70%, speed 82%."],
+["Beck's 1933 London Underground map is an example of…",["Geographic accuracy","Diagrammatic abstraction — 'little white lies'","Photographic mapping","Tactile mapping"],1,"Maps suppress truth to show what matters (Monmonier)."],
+["For drug labels (Quinn et al.), what should be the LARGEST element?",["NDC","Brand name","Manufacturer logo","Rx only"],1,"Brand name largest; generic slightly smaller; strength near the name."]
+]
+}
