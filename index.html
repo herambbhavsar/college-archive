@@ -229,6 +229,7 @@ body.nm .doc{max-width:820px}
 .doc h3 button{min-height:30px;padding:3px 10px;font-size:12px;background:none}
 .doc .tw{margin:12px 0 4px}
 .doc ul{margin:10px 0 0}.doc li{margin:6px 0}
+.doc ul.sub{margin:6px 0 2px;padding-left:20px;list-style:circle}.doc ul.sub li{margin:3px 0}
 .doc p{margin:10px 0 0}
 @media(max-width:900px){body.nm .chead,body.nm .ncol,body.nm footer{margin-left:0}body.nm .toc{display:none;width:auto;right:0;top:60px;bottom:auto;height:calc(100vh - 60px);z-index:30}.tclose{display:inline-flex!important}body.nm .toc.open{display:block}.reader{grid-template-columns:minmax(0,1fr)}.toc{position:fixed;inset:60px 0 0 0;max-height:none;background:var(--bg);z-index:15;padding:16px max(4vw,16px) 60px;display:none}.toc.open{display:block}.tocbtn{display:inline-flex;position:sticky;top:68px;z-index:12;margin-bottom:8px;box-shadow:0 4px 14px rgb(0 0 0/.12)}.hero{grid-template-columns:minmax(0,1fr)}.years{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.crumbs{display:none}.search{width:auto;flex:1}.logo{font-size:0;gap:0}.shelf{min-height:240px;gap:5px;padding:0 4px 12px}.spine .lab{display:none}.years{grid-template-columns:minmax(0,1fr)}.item{flex-wrap:wrap}}
@@ -318,7 +319,8 @@ function emph(s,lead){let h=inline(s);
 function parseNotes(md){
   const L=md.split('\n'),out=[],toc=[];let sec=null,tbl=null,list=null,n=0;
   const flushT=()=>{if(tbl){sec.push('<div class="tw"><table><thead><tr>'+tbl[0].map(c=>'<th>'+inline(c)+'</th>').join('')+'</tr></thead><tbody>'+tbl.slice(1).map(r=>'<tr>'+r.map(c=>'<td>'+emph(c)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>');tbl=null}};
-  const flushL=()=>{if(list){sec.push('<ul>'+list.map(x=>'<li>'+emph(x,1)+'</li>').join('')+'</ul>');list=null}};
+  const cap=y=>y.replace(/^[a-z]/,c=>c.toUpperCase());const li=x=>{const parts=x.split(/\s+·\s+/);if(parts.length<3)return '<li>'+emph(x,1)+'</li>';const m=parts[0].match(/^([^:]{2,60}):\s+(.*)$/);if(m){parts[0]=m[2];return '<li>'+emph(m[1]+': ',1).replace(/:\s*$/,':')+'<ul class="sub">'+parts.map(y=>'<li>'+emph(cap(y))+'</li>').join('')+'</ul></li>'}return parts.map(y=>'<li>'+emph(cap(y))+'</li>').join('')};
+  const flushL=()=>{if(list){sec.push('<ul>'+list.map(li).join('')+'</ul>');list=null}};
   const flush=()=>{flushT();flushL()};
   const newSec=(title,unit)=>{flush();if(sec)out.push(sec.join('')+'</section>');const id='t'+(n++);sec=['<section data-id="'+id+'"><h3 id="'+id+'"><span>'+(()=>{const k=/—\s*IMPORTANT\s*$/i.test(title);const t=title.replace(/\s*—\s*IMPORTANT\s*$/i,'');const m=t.match(/^((?:\d+(?:\.\d+)*|T\d+(?:[–-]T?\d+)?(?:\s*&\s*T?\d+)?))\s+(.*)$/);return (m?'<em class="hn">'+esc(m[1])+'</em>'+inline(m[2]):inline(t))+(k?'<i class="key">Key topic</i>':'')})()+'</span><button type="button" data-done="'+id+'">Mark done</button></h3>'];toc.push({id,title,unit})};
   let unit='';sec=null;
@@ -335,7 +337,7 @@ function parseNotes(md){
     if(/^!/.test(l)){flushL();sec.push('<p class="warn">'+emph(l.slice(1))+'</p>');continue}
     if(/^\s*[-•] /.test(l)){(list=list||[]).push(l.replace(/^\s*[-•] /,''));continue}
     if(!l.trim()){flushL();continue}
-    flushL();sec.push('<p>'+emph(l,1)+'</p>');
+    flushL();if(l.split(/\s+·\s+/).length>=3){sec.push('<ul>'+l.split(/\s+·\s+/).map(y=>'<li>'+emph(y.replace(/^[a-z]/,c=>c.toUpperCase()))+'</li>').join('')+'</ul>')}else sec.push('<p>'+emph(l,1)+'</p>');
   }
   flush();if(sec)out.push(sec.join('')+'</section>');
   return {html:out.join(''),toc};
