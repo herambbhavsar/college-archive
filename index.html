@@ -236,6 +236,11 @@ body.nm .doc{max-width:820px}
 .pvb{flex:1;overflow:auto;padding:16px;display:flex;flex-direction:column;align-items:center;gap:14px}
 .pvp{flex:none;background:#fff;box-shadow:0 2px 10px rgb(0 0 0/.12);position:relative;display:grid;place-items:center;color:#aaa;font-size:13px}
 .pvp canvas{display:block}
+
+.doc .mode{display:inline-flex;gap:2px;background:#f1f2f5;border-radius:99px;padding:3px;margin:0 0 24px;font-size:12.5px;font-weight:600}
+.doc .mode span{padding:4px 12px;border-radius:99px;color:var(--mute)}
+.doc .mode span.on{background:#fff;color:var(--ink);box-shadow:0 1px 2px rgb(0 0 0/.08)}
+.toc .tfoot .sw+.sw{margin-top:4px}
 .toc .thead{position:sticky;top:0;margin:0 -16px 0 -20px;padding:20px 16px 10px 20px;background:#f7f8fa;z-index:2;border-bottom:1px solid var(--line)}
 .tclose{display:none;border:1px solid var(--line);background:#fff;border-radius:8px;padding:0 12px;min-height:36px;align-items:center;font:500 14px Inter,sans-serif}
 .toc .tname{display:flex;justify-content:space-between;align-items:center;gap:8px;font:700 15px Archivo,sans-serif;font-stretch:110%;margin-bottom:12px}
@@ -308,12 +313,12 @@ const BASE=[
  {id:'ds3013',sem:6,code:'DS3013',name:'Design Project',cr:3,c:'#ff5a1f'},
  {id:'ds3014',sem:6,code:'DS3014',name:'Fabrication Project',cr:4,c:'#0f8a5f'},
  {id:'hs3004',sem:6,code:'HS3004',name:'Ecology and Environment Science',cr:2,c:'#e0a100'},
- {id:'dm',sem:5,code:'DS3011',name:'Design Management',cr:3,c:'#2747ff',notes:'notes/dm.md',by:'Prof. Pradeep Yammiyavar & Dr. Sangeeta Pandit'},
+ {id:'dm',sem:5,code:'DS3011',name:'Design Management',cr:3,c:'#2747ff',notes:'notes/dm.md',notesD:'notes/dm-d.md',by:'Prof. Pradeep Yammiyavar & Dr. Sangeeta Pandit'},
  {id:'ed',sem:5,code:'DS3001',name:'Engineering Design incl. Design and Fabrication Project',cr:4,c:'#5f6b7a'},
  {id:'dp4',sem:5,code:'DS3012',name:'Design Project 4',cr:3,c:'#d6336c'},
- {id:'sd',sem:5,code:'DS3009',name:'Service Design',cr:3,c:'#ff5a1f',notes:'notes/sd.md',by:'Prof. Pradeep Yammiyavar'},
- {id:'sus',sem:5,code:'DS3010',name:'Sustainable Design',cr:3,c:'#0f8a5f',notes:'notes/sus.md',by:'Dr. Amrita Bhattacharjee'},
- {id:'ve',sem:5,code:'OE3D16',name:'Visual Ergonomics',cr:3,c:'#e0a100',notes:'notes/ve.md',by:'Open elective'}
+ {id:'sd',sem:5,code:'DS3009',name:'Service Design',cr:3,c:'#ff5a1f',notes:'notes/sd.md',notesD:'notes/sd-d.md',by:'Prof. Pradeep Yammiyavar'},
+ {id:'sus',sem:5,code:'DS3010',name:'Sustainable Design',cr:3,c:'#0f8a5f',notes:'notes/sus.md',notesD:'notes/sus-d.md',by:'Dr. Amrita Bhattacharjee'},
+ {id:'ve',sem:5,code:'OE3D16',name:'Visual Ergonomics',cr:3,c:'#e0a100',notes:'notes/ve.md',notesD:'notes/ve-d.md',by:'Open elective'}
 ];
 const KINDS=[['notes','Notes'],['ppt','PPTs'],['pyq','PYQs'],['resource','Resources'],['assignment','Assignments'],['test','Quick test']];
 const STATIC={
@@ -350,7 +355,7 @@ function emph(s,lead){let h=inline(s);
   return h.replace(/(<b[^>]*>[\s\S]*?<\/b>)|([^<]+)/g,(all,tag,txt)=>tag?tag:txt.replace(CAPS,(m0,pre,w)=>{const letters=w.replace(/[^A-Z]/g,'');if(letters.length<(/\s/.test(w)?3:4))return m0;return pre+'<b class="hl">'+w+'</b>'}))}
 function parseNotes(md){
   const L=md.split('\n'),out=[],toc=[];let sec=null,tbl=null,list=null,n=0;
-  const flushT=()=>{if(tbl){sec.push('<div class="tw"><table><thead><tr>'+tbl[0].map(c=>'<th>'+inline(c)+'</th>').join('')+'</tr></thead><tbody>'+tbl.slice(1).map(r=>'<tr>'+r.map(c=>'<td>'+emph(c)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>');tbl=null}};
+  const flushT=()=>{if(tbl&&tbl.length===1&&tbl[0].length===1){sec.push('<p class="warn">'+emph(tbl[0][0])+'</p>');tbl=null}if(tbl){sec.push('<div class="tw"><table><thead><tr>'+tbl[0].map(c=>'<th>'+inline(c)+'</th>').join('')+'</tr></thead><tbody>'+tbl.slice(1).map(r=>'<tr>'+r.map(c=>'<td>'+emph(c)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>');tbl=null}};
   const cap=y=>y.replace(/^[a-z]/,c=>c.toUpperCase());const li=x=>{const parts=x.split(/\s+·\s+/);if(parts.length<3)return '<li>'+emph(x,1)+'</li>';const m=parts[0].match(/^([^:]{2,60}):\s+(.*)$/);if(m){parts[0]=m[2];return '<li>'+emph(m[1]+': ',1).replace(/:\s*$/,':')+'<ul class="sub">'+parts.map(y=>'<li>'+emph(cap(y))+'</li>').join('')+'</ul></li>'}return parts.map(y=>'<li>'+emph(cap(y))+'</li>').join('')};
   const flushL=()=>{if(list){sec.push('<ul>'+list.map(li).join('')+'</ul>');list=null}};
   const flush=()=>{flushT();flushL()};
@@ -365,7 +370,7 @@ function parseNotes(md){
     if(/^## /.test(l)){flush();sec.push('<h4>'+inline(l.slice(3))+'</h4>');continue}
     if(/^\|/.test(l)){flushL();const cells=l.replace(/^\||\|$/g,'').split('|').map(s=>s.trim());if(cells.every(c=>/^:?-+:?$/.test(c)))continue;if(tbl&&tbl[0].length!==cells.length)flushT();if(!tbl)tbl=[cells];else tbl.push(cells);continue}
     flushT();
-    if(/^\[FIG:/.test(l)){flushL();const m=l.match(/^\[FIG:([^|\]]+)\|?(.*)\]$/);if(m&&/^fig\/[\w.-]+$/.test(m[1])){sec.push('<figure class="nfig"><button type="button" class="zoom" data-src="'+esc(m[1])+'" aria-label="Enlarge: '+esc(m[2])+'"><img loading="lazy" decoding="async" src="'+esc(m[1])+'" alt="'+esc(m[2])+'"></button><figcaption>'+esc(m[2])+'</figcaption></figure>')}continue}
+    if(/^\[FIG:/.test(l)){flushL();const m=l.match(/^\[FIG:([^|\]]+)\|?(.*)\]$/);if(m&&/^fig\/(?:d\/)?[\w.-]+$/.test(m[1])){sec.push('<figure class="nfig"><button type="button" class="zoom" data-src="'+esc(m[1])+'" aria-label="Enlarge: '+esc(m[2])+'"><img loading="lazy" decoding="async" src="'+esc(m[1])+'" alt="'+esc(m[2])+'"></button><figcaption>'+esc(m[2])+'</figcaption></figure>')}continue}
     if(/^\[IMG:/.test(l)){flushL();const cap=(l.match(/\|(.*?)\]/)||[])[1]||'Figure';sec.push('<div class="fig">Figure: '+esc(cap)+' — see the detailed PDF.</div>');continue}
     if(/^!/.test(l)){flushL();sec.push('<p class="warn">'+emph(l.slice(1))+'</p>');continue}
     if(/^\s*[-•] /.test(l)){(list=list||[]).push(l.replace(/^\s*[-•] /,''));continue}
@@ -375,7 +380,7 @@ function parseNotes(md){
   flush();if(sec)out.push(sec.join('')+'</section>');
   return {html:out.join(''),toc};
 }
-async function getNotes(c){if(notesCache[c.id])return notesCache[c.id];const r=await fetch(c.notes);if(!r.ok)throw 0;const p=parseNotes(await r.text());p.text=p.toc.map(t=>t.title);notesCache[c.id]=p;return p}
+async function getNotes(c,path){path=path||c.notes;if(notesCache[path])return notesCache[path];const r=await fetch(path);if(!r.ok)throw 0;const p=parseNotes(await r.text());p.text=p.toc.map(t=>t.title);notesCache[path]=p;return p}
 
 /* ---------- views ---------- */
 let spy=null,qstate=null;
@@ -418,19 +423,19 @@ async function notesPane(c){
   if(!c.notes){pane.innerHTML=fileList||'<div class="empty" style="margin-top:24px">Notes coming soon.</div>';bindLib(c,'notes');return}
   pane.innerHTML='<div class="reader"><aside class="toc" id="toc"><div class="note">Loading topics…</div></aside><div class="ncol"><button class="btn sm tocbtn" id="tocbtn" type="button">☰ Topics</button><article class="doc" id="doc"></article>'+fileList+'</div></div>';
   bindLib(c,'notes');
-  let p;try{p=await getNotes(c)}catch(e){$('#doc').innerHTML='<div class="empty">The notes file could not be loaded.</div>';return}
-  const doneKey='done-'+c.id;let done=new Set(ls.get(doneKey,[]));
-  const doc=$('#doc'),toc=$('#toc');doc.innerHTML=p.html;
+  const detail=!!(c.notesD&&ls.get('detail',false));let p;try{p=await getNotes(c,detail?c.notesD:c.notes)}catch(e){$('#doc').innerHTML='<div class="empty">The notes file could not be loaded.</div>';return}
+  const doneKey='done-'+c.id+(detail?'-d':'');let done=new Set(ls.get(doneKey,[]));
+  const doc=$('#doc'),toc=$('#toc');doc.innerHTML='<div class="mode"><span class="'+(detail?'':'on')+'">Short notes</span><span class="'+(detail?'on':'')+'">Detailed notes</span></div>'+p.html;
   const groups=[];p.toc.forEach(t=>{let g=groups[groups.length-1];if(!g||g.unit!==t.unit){g={unit:t.unit,items:[]};groups.push(g)}g.items.push(t)});
   const ttl=t=>{const m=t.title.match(/^((?:\d+(?:\.\d+)*|T\d+(?:[–-]T?\d+)?(?:\s*&\s*T?\d+)?))\s+(.*)$/);let n=m?m[1]:'',x=m?m[2]:t.title,key=/—\s*IMPORTANT\s*$/i.test(x);x=x.replace(/\s*—\s*IMPORTANT\s*$/i,'');return {n,x,key}};
   const uparts=u=>{const m=(u||'').match(/^(?:UNIT|PART)\s+([\w.]+)\s*[—-]\s*(.*)$/i);return m?{n:m[1],x:tc(m[2]).replace(/\s*\(([^)]*)\)\s*$/,''),d:((m[2].match(/\(([^)]*)\)\s*$/)||[])[1]||'')}:{n:'',x:u?tc(u):'Start here',d:''}};
   const links=groups.map((g,gi)=>{const u=uparts(g.unit);return '<div class="grp" data-g="'+gi+'">'+(g.unit?'<button type="button" class="gh" aria-expanded="true"><span class="gn">'+esc(u.n)+'</span><span class="gt"><b>'+esc(u.x)+'</b>'+(u.d?'<small>'+esc(u.d)+'</small>':'')+'</span><span class="gc" data-gc="'+gi+'"></span><span class="chev" aria-hidden="true"></span></button>':'')+'<div class="gl">'+g.items.map(t=>{const q=ttl(t);return '<a href="#'+t.id+'" data-t="'+t.id+'"><span class="tn">'+esc(q.n)+'</span><span class="tx">'+esc(q.x)+(q.key?'<i class="key">Key</i>':'')+'</span></a>'}).join('')+'</div></div>'}).join('');
-  toc.innerHTML='<div class="thead"><div class="tname"><span>'+esc(c.name)+'</span><button type="button" class="tclose" id="tclose">Close</button></div><input class="tsearch" id="ts" type="search" placeholder="Filter topics" aria-label="Filter topics"><div class="prog"><i id="pg"></i></div><div class="pl" id="pl"></div></div><nav id="tl">'+links+'</nav><div class="tfoot"><label class="sw"><input type="checkbox" id="hlsw"'+(ls.get('hl',true)?' checked':'')+'><span class="track"><i></i></span><span><b>Highlight key words</b><small>Bold the terms worth remembering</small></span></label></div>';
+  toc.innerHTML='<div class="thead"><div class="tname"><span>'+esc(c.name)+'</span><button type="button" class="tclose" id="tclose">Close</button></div><input class="tsearch" id="ts" type="search" placeholder="Filter topics" aria-label="Filter topics"><div class="prog"><i id="pg"></i></div><div class="pl" id="pl"></div></div><nav id="tl">'+links+'</nav><div class="tfoot"><label class="sw"><input type="checkbox" id="hlsw"'+(ls.get('hl',true)?' checked':'')+'><span class="track"><i></i></span><span><b>Highlight key words</b><small>Bold the terms worth remembering</small></span></label>'+(c.notesD?'<label class="sw"><input type="checkbox" id="dtsw"'+(detail?' checked':'')+'><span class="track"><i></i></span><span><b>Detailed notes</b><small>Full explanations, examples and lecture slides</small></span></label>':'')+'</div>';
   const paint=()=>{toc.querySelectorAll('a[data-t]').forEach(a=>a.classList.toggle('done',done.has(a.dataset.t)));groups.forEach((g,gi)=>{const el=toc.querySelector('[data-gc="'+gi+'"]');if(el){const d=g.items.filter(t=>done.has(t.id)).length;el.textContent=d+'/'+g.items.length;el.classList.toggle('all',d===g.items.length)}});doc.querySelectorAll('[data-done]').forEach(b=>{const on=done.has(b.dataset.done);b.classList.toggle('on',on);b.textContent=on?'✓ Done':'Mark done'});const pct=Math.round(done.size/p.toc.length*100);$('#pg').style.width=pct+'%';$('#pl').textContent=done.size+' of '+p.toc.length+' topics done · '+pct+'%'};
   paint();
   doc.onclick=e=>{const z=e.target.closest('.zoom');if(z){const lb=$('#lb');$('#lbimg').src=z.dataset.src;$('#lbimg').alt=z.querySelector('img').alt;$('#lbcap').textContent=z.querySelector('img').alt;lb.hidden=false;$('#lbx').focus();return}const b=e.target.closest('[data-done]');if(!b)return;const k=b.dataset.done;done.has(k)?done.delete(k):done.add(k);ls.set(doneKey,[...done]);paint()};
   toc.onclick=e=>{const gh=e.target.closest('.gh');if(gh){const g=gh.parentNode;g.classList.toggle('shut');gh.setAttribute('aria-expanded',!g.classList.contains('shut'));return}const a=e.target.closest('a[data-t]');if(!a)return;e.preventDefault();const el=document.getElementById(a.dataset.t);if(el)el.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth'});toc.classList.remove('open')};
-  document.body.classList.toggle('hlon',ls.get('hl',true));$('#hlsw').onchange=e=>{ls.set('hl',e.target.checked);document.body.classList.toggle('hlon',e.target.checked)};
+  document.body.classList.toggle('hlon',ls.get('hl',true));$('#hlsw').onchange=e=>{ls.set('hl',e.target.checked);document.body.classList.toggle('hlon',e.target.checked)};const dt=$('#dtsw');if(dt)dt.onchange=e=>{ls.set('detail',e.target.checked);scrollTo(0,0);notesPane(c)};
   $('#tocbtn').onclick=()=>toc.classList.toggle('open');$('#tclose').onclick=()=>toc.classList.remove('open');
   $('#ts').oninput=e=>{const v=e.target.value.toLowerCase().trim();toc.querySelectorAll('.grp').forEach(g=>{let any=false;g.querySelectorAll('a[data-t]').forEach(a=>{const hit=!v||a.textContent.toLowerCase().includes(v);a.style.display=hit?'':'none';any=any||hit});g.style.display=any?'':'none';if(v)g.classList.remove('shut')})};
   if(spy)spy.disconnect();
