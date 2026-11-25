@@ -266,7 +266,10 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 # UNIT 9 — INTELLECTUAL PROPERTY RIGHTS (IPR) (10 Sep)
 
 # 9.1 Basics and types
-- Intellectual = from the mind; IP = mind's output with value (own, sell, transfer); IPR = legal power to claim ownership and benefit. "IP = creation of wealth by the mind." IDEAS CANNOT BE PATENTED.
+- INTELLECTUAL: originating in the mind through its capabilities — capacities to reason, to plan, to solve problems, to think abstractly, to comprehend ideas, to use language, to learn, to create.
+- INTELLECTUAL PROPERTY (IP): output of the mind to which a value can be attributed. Equivalent to any other property that one builds, buys, owns, transfers, sells etc.
+- INTELLECTUAL PROPERTY RIGHT (IPR): the power vested under the law of the land to claim ownership of the property and derive benefit thereof.
+- "Property is wealth. Intellectual property is the creation of wealth by the mind." IDEAS CANNOT BE PATENTED — ideas by themselves are not intellectual property as defined by law.
 - Why IPR: creativity drives economy; knowledge = economic warfare; encourages research & investment; entrepreneurship; intellectual capital. Route to RECOGNITION, REWARD, RICHES.
 - Entrepreneur must know: laws, ethics, authorities, forms/stages, legal support, employer/client agreements, transfer & sharing agreements, when to protect.
 | Type | Protects | Act (India) |
