@@ -162,7 +162,7 @@ Reduced revision notes for Sustainable Design (DS3010, Dr. Amrita Bhattacharjee)
 [FIG:fig/sus_127_63.jpg|Circular economy]
 # UNIT 7 — NATURE INSPIRED DESIGN (NID)
 
-# 7.1 NID principles and wheel
+# 7.1 Nature Inspired Design (NID) principles and wheel
 | NID (Nature Inspired Design) principle | Example |
 | Waste equals food | Fallen leaves feed soil |
 | Use current solar income | Solar products, daylight |

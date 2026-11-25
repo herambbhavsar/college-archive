@@ -18,7 +18,7 @@ Reduced revision notes for Visual Ergonomics (OE3D16), following the syllabus to
 - Vision dominates; takes in a LARGE amount SIMULTANEOUSLY; eye catches light → nerve signals → brain builds the picture.
 - Senses = information channels (eyes, ears, skin, proprioceptors); brain = best processor. Vision for complex/spatial/long info; hearing for short urgent signals; touch for blind users or overload. Car: eyes read road, ears hear horn, hands feel steering.
 
-# T3 Pertinence of the eyes (HFED)
+# T3 Pertinence of the eyes (HFED: Human Factors in Engineering and Design)
 - Eye: cornea → aqueous humor → pupil (iris: ~8 mm dark, ~2 mm bright) → lens (bulges for near, flattens for far) → vitreous → retina.
 | Cones | Rods |
 | 6–7 million, fovea | ~130 million, periphery (max 10–20°) |
@@ -148,7 +148,7 @@ Reduced revision notes for Visual Ergonomics (OE3D16), following the syllabus to
 
 [FIG:fig/ve_009_76.jpg|1932 geographic map of the London Underground — hard to use (Degani Fig. 1)]
 [FIG:fig/ve_010_77.jpg|Wayfinding sign for older users: distinctive, consistent, simple, reassuring (Mishler & Neider Fig. 1)]
-# T14 Road safety through VE (Netherlands)
+# T14 Road safety through Visual Ergonomics (VE), Netherlands
 - Self-explaining roads; "death roads"; 103 drivers rated 14 slides (crosses, mourning cards, text "snel?/haast?").
 | Sign | Danger | Speed |
 | Text only | 27% | 93% |
@@ -161,7 +161,7 @@ Reduced revision notes for Visual Ergonomics (OE3D16), following the syllabus to
 - 30 log-in pages: 7 components (title, username, password, button, forgot password, forgot username, help) but inconsistent labels (8 button labels), label above (47%) vs left (53%).
 - Users: "Login" title 74%, "User ID" 42%, "Password" 95%. STANDARD: title Log-in, User ID, Password, button Log-in, "Forgot Your User ID?", "Forgot Your Password?", "Help?"; left-aligned plain labels; same word for title & button → CONSISTENCY.
 
-# T16 Airport taxiway markings (FAA)
+# T16 Airport taxiway markings (FAA: Federal Aviation Administration)
 - Runway incursion = collision hazard on runway; 1,480 (1999–2002); 833 deaths since 1972; causes: memory decay, interruption, miscommunication, disorientation. PAINT = cheap, simple, universal.
 - 10 goals: all eye heights (8–20 ft), conspicuity, directionality, preview, awareness not force, intuitive, unique on several dimensions, compatible, consistent, keep yellow = taxiway / white = runway.
 - Process: everyone incl. PAINT CONTRACTORS from the start; 20 concepts → 5 → simulator (36 pilots) → field (224 pilots).

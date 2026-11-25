@@ -3,7 +3,7 @@ Reduced revision notes for Design Management (DS 3011, Prof. Pradeep Yammiyavar 
 
 # UNIT 1 — INTRODUCTION TO DESIGN MANAGEMENT (31 Aug)
 
-# 1.1 History of DM
+# 1.1 History of Design Management (DM)
 | Period | Milestone |
 | 1920s | Term "design management" used, loosely defined |
 | 1950s | Olivetti credited DM (Design Management) for its success; Aspen conference (USA) brought business + design together |
@@ -38,16 +38,16 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 | CONTROLLING | Monitor parameters so good design emerges | Progress reports; what if lagging, who is affected |
 | DE-BRIEFING | Follow up, document, learn | Completion report, review meetings, filing |
 
-# 1.5 Questions DM answers / how a manager is judged
+# 1.5 Questions Design Management (DM) answers / how a manager is judged
 - DM answers: how to show the VALUE of design (metrics); get recognition, credibility, trust for design; build relationships inside the organisation; efficient processes for good output every time; action plan for your and design's position; MONETISE design (creative circular economy).
 - Judged by how you manage relationships (organisation–public/stakeholders, organisation–consumers: loyalty, trust, fans; teams; self), processes (project methodology), linking information systems to customer experience through design KNOWLEDGE, and making the organisation FUTURE-SHOCK PROOF (forecasting by analytics). Everyone, even security staff, judges you.
 
-# 1.6 Careers, design-respecting organisations, GCCs
+# 1.6 Careers, design-respecting organisations, Global Capability Centres (GCCs)
 - Careers: brand management, corporate design, product development (PLM (Product Lifecycle Management)), IxD/ICT manager, corporate communication, project & account management, IPR (Intellectual Property Rights), innovation, strategy, analytics, marketing/media, design entrepreneurship, knowledge manager, service-systems designer, organisation designer.
 - Organisations that respect designers: design = strategic resource (not decoration); strategy & design managed at each level; business + design knowledge enterprise-wide; vertical & horizontal integration; multiple customer channels; design + marketing integrate experience at all TOUCHPOINTS. "Design is the VOICE OF THE USER."
 - GCCs (Global Capability Centres): 52% plan to expand (Tagged + CII (Confederation of Indian Industry)); India 2,117 units, 23 lakh people, ₹9.4 lakh crore, > 50% of global GCC activity; Bengaluru 34–39%, then Hyderabad, Pune, Chennai. Constraint: only 42.6% graduates employable. "Tasks faster but system not smarter" → need SYSTEMS & SERVICES designers. Top jobs: AI (Artificial Intelligence) flow-process designer, systems & services modeller, front/back-end integrator, AI-HCI (Human–Computer Interaction) researcher, AI-tools designer, services information-systems designer, HCD (Human-Centred Design) consultant. GCCs: Intel, Samsung, Rolls-Royce, Micron (Bengaluru); Mercedes-Benz R&D, Bosch (Pune & Bengaluru); Qualcomm (Bengaluru & Hyderabad); Adobe (Bengaluru & Noida).
 
-# 1.7 BS 7000 standards
+# 1.7 British Standard (BS) 7000 standards
 | Standard | Topic |
 | 7000-1:1999 | Managing innovation |
 | 7000-2:1997 | Design of manufactured products |
@@ -141,7 +141,7 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 [FIG:fig/dm_032_7.jpg|MVP: traditional approach vs MVP approach]
 [FIG:fig/dm_034_8.jpg|Startup killing zones: team, market, product, timing, capital]
 # 4.3 Company type, registration, pitching, consultancy
-- 3 irreversible decisions: (1) TYPE — Pvt Ltd (scalable, investor-preferred), LLP (flexible, low compliance, no equity funding), OPC (solo, limited liability, full control), partnership/proprietorship (easy, not scalable, ~₹40 lakh ceiling); (2) OWNERSHIP, roles & equity; (3) BRAND identity — name, trademark, domain, handles (register early).
+- 3 irreversible decisions: (1) TYPE — Pvt Ltd (Private Limited Company: scalable, investor-preferred), LLP (Limited Liability Partnership: flexible, low compliance, no equity funding), OPC (One Person Company: solo, limited liability, full control), partnership/proprietorship (easy, not scalable, ~₹40 lakh ceiling); (2) OWNERSHIP, roles & equity; (3) BRAND identity — name, trademark, domain, handles (register early).
 - Registration: type → DSC (Digital Signature Certificate) → DIN (Director Identification Number) → name reservation → MoA & AoA → SPICe+ → Certificate of Incorporation → PAN (Permanent Account Number) & TAN (Tax Deduction and Collection Account Number) → bank account → INC-20A within 180 days. Golden rule: separate personal and company finances.
 - Licences: GST (GSTN/CBIC), Shop & Establishment (state labour dept), trade licence (municipality), FSSAI (food), IEC (DGFT (Directorate General of Foreign Trade), import/export), professional tax, Udyam (MSME (Micro, Small and Medium Enterprises)).
 - 30-s pitch: hook 5 s → problem 10 s → solution 10 s → call to action 5 s. 1-min: hook, problem, solution, traction, market, team, ask. Deck: purpose, problem, solution, demo, market size, business model, unfair advantage, competition, marketing, team, traction, contact.
@@ -150,9 +150,9 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 - Solo consultancy: office (1 yr before registering), portfolio/website, fees by value, experience, client size, deliverables, ability to pay, demand, currency, time. FIXED price (earn more; risk of overrun) vs HOURLY (stability) vs RETAINER. "You pay for my PROCESS"; quote on paper, signed contract, payment terms, inclusions/exclusions.
 - Assignment 2: startup business plan, ≤ 4 members, 20–30 pages + PPT, references/AI prompts in annexure.
 
-# UNIT 5 — PLC & DATA ANALYTICS (4 Sep)
+# UNIT 5 — PRODUCT LIFE CYCLE (PLC) & DATA ANALYTICS (4 Sep)
 
-# 5.1 Product management and PLC
+# 5.1 Product management and Product Life Cycle (PLC)
 - Product management in DM: product planning & development (R&D, usability engg.), brand management (positioning, image, visual communication), corporate planning (user tracking, competition, strategy, policy), PLC (Product Life Cycle) monitoring (feedback, ROI, design audit, documentation). Project life-cycle wheel: planning → concept → detailed design → construction → operations & maintenance → benchmark vs brief.
 - PLC stages: introduction → growth → maturity → decline → death/abandonment. Introduction = high cost, NEGATIVE cash flow; profit peaks BEFORE sales (LAG); ROR slope = rate of return.
 - Strategies: (1) BY DESIGN — innovation restarts the PLC, or renovate/discount; (2) re-advertise as improved/imported; (3) buy out a competing brand; (4) free service for life/discount; (5) buy one get one (dead inventory). PLC analysis is a full-time job; designers increasingly do it.
@@ -263,7 +263,7 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 
 [FIG:fig/dm_069_20.jpg|Innovation frameworks and the innovation matrix]
 [FIG:fig/dm_069_21.jpg|The four Ps of innovation]
-# UNIT 9 — IPR (10 Sep)
+# UNIT 9 — INTELLECTUAL PROPERTY RIGHTS (IPR) (10 Sep)
 
 # 9.1 Basics and types
 - Intellectual = from the mind; IP = mind's output with value (own, sell, transfer); IPR = legal power to claim ownership and benefit. "IP = creation of wealth by the mind." IDEAS CANNOT BE PATENTED.

@@ -47,7 +47,7 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 - Designing a service = aesthetics/front end, to please; SERVICE DESIGN goes "underground", aims at delight, reshapes operations and business model. Marketing sells (no personas); SD handles experience, creates personas, plans people, processes, touchpoints.
 - Origin: LYNN SHOSTACK, 1982 HBR (Harvard Business Review) "How to Design a Service" — introduced the SERVICE BLUEPRINT. 1991 Köln school teaches SD; 2000s government, healthcare, finance.
 
-# 1.5 SD vs UX vs CX vs PD vs DT; layers
+# 1.5 Service Design (SD) vs User Experience (UX) vs Customer Experience (CX) vs Product Design (PD) vs Design Thinking (DT); layers
 | Discipline | Scope | Focus | Artefacts |
 | Service design | End-to-end, channels, over time, backstage | Align front & back stage | Blueprints, journey & stakeholder maps |
 | UX | One digital product/interface | Usability, interaction | Wireframes, prototypes, usability tests |
@@ -173,7 +173,7 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 - Data sets → database → tables; designer visualises information hierarchy at CEO level.
 
 [FIG:fig/sd_040_31.jpg|Integrating front end with back end]
-# 4.2 Context diagram, DFD, levelling, rules
+# 4.2 Context diagram, Data Flow Diagram (DFD), levelling, rules
 - Notations: context diagrams, document flow diagrams, DFDs, E-R diagrams.
 | DFD (Data Flow Diagram) element | Symbol | Rule |
 | Process | Circle/rounded rectangle | Number + verb name; ≥1 input & output |
@@ -189,7 +189,7 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 
 [FIG:fig/sd_050_32.jpg|Context diagram — mess management system]
 [FIG:fig/sd_050_33.jpg|Expanded DFD for the hostel mess]
-# 4.3 Hostel billing case, E-R, UML, AI, 7 steps
+# 4.3 Hostel billing case, Entity–Relationship (E-R), Unified Modeling Language (UML), Artificial Intelligence (AI), 7 steps
 - Hostel billing: blueprint at level 0 (personas/journey or storyboard) → info sources (users; forms, receipts, registers; admin tree: chief warden → wardens → mess secretary, manager, accountant, store keeper, cook; rule books; hardware/software) → document flow → three teams: PURCHASE (daily/occasional/bi-weekly buys → verify → monthly payment), MESS ACCOUNTS (extras, rebates → daily rate → bills → receipts → overdue), STORES (menu → issue items → stock register → reorder) → logical DFDs → context → levelling.
 | E-R element | Symbol | Meaning |
 | Entity | Rectangle | Noun (Vendor, Item, Order) |
