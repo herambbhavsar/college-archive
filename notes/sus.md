@@ -31,7 +31,7 @@ Reduced revision notes for Sustainable Design (DS3010, Dr. Amrita Bhattacharjee)
 # 1.3 Energy–environment trade-off, ecology, greenhouse effect
 - Environment = surroundings. Every conversion releases heat + pollutants → degradation. Present: trade-off; future: renewable, eco-friendly. 5 June = World Environment Day.
 - ECOLOGY: relationship between organisms and environment; nature self-cleans and recycles (water, nitrogen, carbon cycles) in equilibrium; excess human interference disturbs it.
-- GREENHOUSE EFFECT: natural (keeps earth warm) vs human-enhanced (more GHG → less heat escapes → warming). GHGs: CO2, methane, N2O, HFCs, CFCs, HCFCs, SF6, ozone.
+- GREENHOUSE EFFECT: natural (keeps earth warm) vs human-enhanced (more GHG → less heat escapes → warming). GHGs (Greenhouse Gases): CO2, methane, N2O, HFCs (Hydrofluorocarbons), CFCs, HCFCs (Hydrochlorofluorocarbons), SF6, ozone.
 
 [FIG:fig/sus_014_36.jpg|Natural vs human-enhanced greenhouse effect]
 # UNIT 2 — SUSTAINABLE DESIGN: DEFINITION AND PRINCIPLES
@@ -40,7 +40,7 @@ Reduced revision notes for Sustainable Design (DS3010, Dr. Amrita Bhattacharjee)
 - SUSTAINABLE DESIGN: purposeful design of buildings/places/products that (1) minimise harmful environmental impact, (2) drastically reduce carbon emissions, (3) increase health, wellbeing, nature, biodiversity and social value — over their whole LIFECYCLE. Linked to the UN 17 SDGs (e.g., 7 clean energy, 11 cities, 12 responsible consumption, 13 climate action).
 | 6 principles | Example |
 | Optimise SITE potential | Orientation, sun, wind, existing trees |
-| Optimise ENERGY use | Daylight, LED, rooftop solar |
+| Optimise ENERGY use | Daylight, LED (Light-Emitting Diode), rooftop solar |
 | Protect & conserve WATER | Rainwater harvesting, root-zone treatment |
 | Optimise SPACE & MATERIAL use | Local, recycled, low-embodied-energy materials |
 | Enhance INDOOR environmental quality | Daylight, fresh air, non-toxic finishes |
@@ -55,9 +55,9 @@ Reduced revision notes for Sustainable Design (DS3010, Dr. Amrita Bhattacharjee)
 - WAVE–PARTICLE DUALITY: wave (interference) and particle (photons). E = hν = hc/λ; shorter λ = more energy. Visible 400 nm (~3.1 eV) to 700 nm (~1.77 eV).
 - PHOTOELECTRIC EFFECT (Einstein, Nobel 1921): light above a threshold energy ejects electrons from metal (potassium needs 2.0 eV: red 1.77 eV → none; green 2.25 eV → 2.96×10^5 m/s; violet 3.1 eV → 6.22×10^5 m/s).
 - SEMICONDUCTOR: electrons jump from valence band across BAND GAP to conduction band (heat/photon); doping → N-type (electrons) and P-type (holes).
-- SOLAR CELL: PN junction; photons free electrons; junction field separates charges → ~0.5–0.6 V DC per cell; front grid + back contact collect current.
+- SOLAR CELL: PN junction; photons free electrons; junction field separates charges → ~0.5–0.6 V DC (Direct Current) per cell; front grid + back contact collect current.
 - Construction: front metal grid, antireflective coating, N layer ~0.2 µm, P base ~300 µm, back contact. MONO (single crystal, black, rounded corners, more efficient) vs POLY (blue, square, cheaper).
-- PV MODULE layers: glass → EVA → cells → EVA → Tedlar back cover (36/60 cells in series).
+- PV (Photovoltaic) MODULE layers: glass → EVA (Ethylene Vinyl Acetate) → cells → EVA → Tedlar back cover (36/60 cells in series).
 
 [FIG:fig/sus_022_39.jpg|Wave–particle duality]
 [FIG:fig/sus_023_40.jpg|Photoelectric effect]
@@ -74,7 +74,7 @@ Reduced revision notes for Sustainable Design (DS3010, Dr. Amrita Bhattacharjee)
 | Absorption cooling | Solar heat drives generator → condenser (+cooling tower) → expansion valve → evaporator → absorber |
 | Cookers | BOX: insulated box, black tray, glass cover, reflector lid. COMMUNITY: parabolic dish reflectors |
 - Small products: solar calculator, toy helicopter, radiometer, sun chime, solar torch (battery charged by day), solar tree charger.
-- Large/outdoor: concentrated solar power (heliostats → tower), Charanka solar park (Patan, Gujarat), solar pumps, street lights, vaccine fridge on camel, village power, ISS arrays, solar traffic signals.
+- Large/outdoor: concentrated solar power (heliostats → tower), Charanka solar park (Patan, Gujarat), solar pumps, street lights, vaccine fridge on camel, village power, ISS (International Space Station) arrays, solar traffic signals.
 
 [FIG:fig/sus_029_45.jpg|Solar water heater]
 [FIG:fig/sus_030_46.jpg|Space heating]
@@ -83,7 +83,7 @@ Reduced revision notes for Sustainable Design (DS3010, Dr. Amrita Bhattacharjee)
 [FIG:fig/sus_034_49.jpg|Solar cookers]
 # 3.3 Bio-inspired solar design
 | Idea | Inspiration | Benefit |
-| Largest solar tree — CSIR-CMERI, Durgapur | Tree canopy | More power on small land |
+| Largest solar tree — CSIR (Council of Scientific and Industrial Research)-CMERI (Central Mechanical Engineering Research Institute), Durgapur | Tree canopy | More power on small land |
 | Fibonacci solar tree | Leaf phyllotaxis (~137–144°, 1,1,2,3,5,8,13…) | Less self-shading |
 | Fractal cell | Leaf veins | Better light trapping & current collection |
 | SmartFlower / trackers | Sunflower HELIOTROPISM | Follows sun east→west |
@@ -112,9 +112,9 @@ Reduced revision notes for Sustainable Design (DS3010, Dr. Amrita Bhattacharjee)
 [FIG:fig/sus_062_57.jpg|Power–duration curve]
 # 4.2 Wind applications, hybrid, India
 - Mechanical: sail-assisted ships, water-pumping windmills, home heating. Electrical: grid-connected (turbine → inverter → meter → grid) or stand-alone (rotor + tail + generator + tower → battery → lights/radio/pump).
-- Small stand-alone: remote home, Niama (Morocco) water supply, Finnish coastguard weather station, cattle water, Antarctic hut, wind-powered boat. Intermediate: Kotzebue (Alaska, 10 turbines), Caribbean wind/PV hybrid, Bergey 10 kW (Xiao Qing Dao, China), Krasnoe Island (Russia). Farms: Altamont Pass (USA), Horse Hollow Texas 735 MW, offshore Denmark.
-- HYBRID wind + PV: PV → DC/DC and turbine → AC/DC → DC bus → charge controller ↔ battery → DC loads/dump load + inverter → AC loads. Sun and wind peak at different times → reliable, smaller battery.
-- India: NIWE wind power density map — best on coasts/ghats of TN, Gujarat, Karnataka, Maharashtra, AP, Rajasthan. World capacity ~24,000 MW (2001) → ~239,000 MW (2011).
+- Small stand-alone: remote home, Niama (Morocco) water supply, Finnish coastguard weather station, cattle water, Antarctic hut, wind-powered boat. Intermediate: Kotzebue (Alaska, 10 turbines), Caribbean wind/PV hybrid, Bergey 10 kW (Xiao Qing Dao, China), Krasnoe Island (Russia). Farms: Altamont Pass (USA), Horse Hollow Texas 735 MW (Megawatt), offshore Denmark.
+- HYBRID wind + PV: PV → DC/DC and turbine → AC/DC → DC bus → charge controller ↔ battery → DC loads/dump load + inverter → AC (Alternating Current) loads. Sun and wind peak at different times → reliable, smaller battery.
+- India: NIWE (National Institute of Wind Energy) wind power density map — best on coasts/ghats of TN, Gujarat, Karnataka, Maharashtra, AP, Rajasthan. World capacity ~24,000 MW (2001) → ~239,000 MW (2011).
 
 [FIG:fig/sus_082_58.jpg|Hybrid wind + PV system]
 # UNIT 5 — ENERGY-EFFICIENT BUILDINGS (INDIAN CASE STUDIES)
@@ -123,13 +123,13 @@ Reduced revision notes for Sustainable Design (DS3010, Dr. Amrita Bhattacharjee)
 | Composite | Block summer sun, admit winter sun | Orientation, shading, insulation, courtyards, evaporative cooling, earth-air tunnels |
 | Warm & humid | Avoid heat, ventilate | Shading, cross-ventilation, light roofs, vegetation & water, glare-free daylight |
 | Building | Climate | Key facts and features |
-| HIMURJA office, Shimla | Cold & cloudy | Arvind Krishan & Kunal Jain, 1997, 635 m²; RETROFIT +18.6% (Rs 7 m + 1.3 m); south-wall air heaters with STAIRWELL convective loop, double glazing, insulated north RCC walls, solar chimney, south solarium, light shelves, SWH + PV |
+| HIMURJA office, Shimla | Cold & cloudy | Arvind Krishan & Kunal Jain, 1997, 635 m²; RETROFIT +18.6% (Rs 7 m + 1.3 m); south-wall air heaters with STAIRWELL convective loop, double glazing, insulated north RCC (Reinforced Cement Concrete) walls, solar chimney, south solarium, light shelves, SWH (Solar Water Heater) + PV |
 | HP State Co-op Bank, Shimla | Cold & cloudy | Ashok B Lall (local C L Gupta; S S Chandel), 1995–98, 1650 m² (35% solar-heated), 38 m² air panels; designed-in only +5.6%; sunspaces, solar wall, rooftop solar air heating with ducts, double glazing, AIR-LOCK lobby; 23 cm walls + 5 cm glass wool |
-| RETREAT (TERI), Gurgaon | Composite | Sanjay Prakash & TERI, 1997–2000, 3000 m², 30-room hostel; EARTH-AIR TUNNELS (4 × 70 m, 70 cm Ø, 4 m deep), solar chimneys, ammonia absorption chillers, 50 kW biomass gasifier + 10.7 kWp PV, 2000 lpd SWH, root-zone wastewater, BMS; E/W walls blank & shaded |
+| RETREAT (TERI (The Energy and Resources Institute)), Gurgaon | Composite | Sanjay Prakash & TERI, 1997–2000, 3000 m², 30-room hostel; EARTH-AIR TUNNELS (4 × 70 m, 70 cm Ø, 4 m deep), solar chimneys, ammonia absorption chillers, 50 kW biomass gasifier + 10.7 kWp PV, 2000 lpd SWH, root-zone wastewater, BMS (Building Management System); E/W walls blank & shaded |
 | Solar Energy Centre, Gual Pahari | Composite | Vinod Gupta, 1984–90, 6943 m², 200 acres; courtyards, hollow blocks, rooftop evaporative cooling; guest house EARTH-BERMED on south slope, watered TERRACE GARDEN, white paint, arched sunshades, SWH per bathroom, solar-cooking terrace |
-| Transport Corp. of India, Gurgaon | Composite | A B Lall, 1998/99, 2750 m²; compact inward form, PEEP WINDOWS (cut summer/admit winter sun), FOUNTAIN COURT, Venetian blinds in double windows, PU insulation, absorption AC, comfort set by staff not international norms, low embodied energy |
+| Transport Corp. of India, Gurgaon | Composite | A B Lall, 1998/99, 2750 m²; compact inward form, PEEP WINDOWS (cut summer/admit winter sun), FOUNTAIN COURT, Venetian blinds in double windows, PU (Polyurethane) insulation, absorption AC, comfort set by staff not international norms, low embodied energy |
 | Civil Lines housing, Delhi | Composite | Ashok B Lall, 1999, 1687 m²; orientation, winter-sun sections & skylights, sandwich walls, COURTYARD ROOF as evaporative cooler, China-mosaic roof + 30 mm PU, wind-driven cooler |
-| WBREDA office, Kolkata | Warm & humid | Gherzi Eastern + TERI, 2000, 2026 m²; grass on S/E, vegetation & water bodies, raised roof daylighting with low-e glass & light shelves, shading, ventilation device, 25 kWp grid-interactive PV |
+| WBREDA (West Bengal Renewable Energy Development Agency) office, Kolkata | Warm & humid | Gherzi Eastern + TERI, 2000, 2026 m²; grass on S/E, vegetation & water bodies, raised roof daylighting with low-e glass & light shelves, shading, ventilation device, 25 kWp grid-interactive PV |
 - Lesson: designed-in sustainability costs less (Bank +5.6%) than retrofit (Himurja +18.6%).
 
 # UNIT 6 — CRADLE TO CRADLE
@@ -139,7 +139,7 @@ Reduced revision notes for Sustainable Design (DS3010, Dr. Amrita Bhattacharjee)
 - Linear TAKE → MAKE → WASTE = CRADLE TO GRAVE. ONE SIZE FITS ALL ignores local context (vernacular igloo, earth house, hut, houseboat vs same glass tower everywhere).
 | Milestone | Lesson |
 | Bhopal gas tragedy (1984) | Man-made disaster |
-| Silent Spring, Rachel Carson (27 Sep 1962) | DDT harm; environmental movement |
+| Silent Spring, Rachel Carson (27 Sep 1962) | DDT (Dichlorodiphenyltrichloroethane) harm; environmental movement |
 | Rio Earth Summit (1992) | ECO-EFFICIENCY: "doing more with less" |
 | 4 R's | Reduce, Reuse, Recycle, Regulate |
 | ECO-EFFICIENCY ("less bad") | ECO-EFFECTIVENESS ("more good") |
@@ -163,7 +163,7 @@ Reduced revision notes for Sustainable Design (DS3010, Dr. Amrita Bhattacharjee)
 # UNIT 7 — NATURE INSPIRED DESIGN (NID)
 
 # 7.1 NID principles and wheel
-| NID principle | Example |
+| NID (Nature Inspired Design) principle | Example |
 | Waste equals food | Fallen leaves feed soil |
 | Use current solar income | Solar products, daylight |
 | Be resource efficient | Honeycomb, hollow bones |

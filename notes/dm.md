@@ -6,12 +6,12 @@ Reduced revision notes for Design Management (DS 3011, Prof. Pradeep Yammiyavar 
 # 1.1 History of DM
 | Period | Milestone |
 | 1920s | Term "design management" used, loosely defined |
-| 1950s | Olivetti credited DM for its success; Aspen conference (USA) brought business + design together |
+| 1950s | Olivetti credited DM (Design Management) for its success; Aspen conference (USA) brought business + design together |
 | 1970s | Peter Gorb (London Business School): designers must learn business; design defined as a BUSINESS FUNCTION |
 | 1975 | Design Management Institute (DMI), Boston, with Harvard Business School |
 | 1980s | DM specialisations in design schools with management schools |
 | 1990s | Strategy, policy, collaboration — "consumer is king" |
-| 2000s | Profit by design, change by design, design-led technology, CSR, carbon footprint, ROI |
+| 2000s | Profit by design, change by design, design-led technology, CSR (Corporate Social Responsibility), carbon footprint, ROI |
 | 2015 | Design thinking, startups, innovation, systems design |
 | 2025 | Design knowledge management, design-led innovation, value creation, R&DD (research, design & development) |
 | 2030 | Creative design-tech-led innovation |
@@ -43,9 +43,9 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 - Judged by how you manage relationships (organisation–public/stakeholders, organisation–consumers: loyalty, trust, fans; teams; self), processes (project methodology), linking information systems to customer experience through design KNOWLEDGE, and making the organisation FUTURE-SHOCK PROOF (forecasting by analytics). Everyone, even security staff, judges you.
 
 # 1.6 Careers, design-respecting organisations, GCCs
-- Careers: brand management, corporate design, product development (PLM), IxD/ICT manager, corporate communication, project & account management, IPR, innovation, strategy, analytics, marketing/media, design entrepreneurship, knowledge manager, service-systems designer, organisation designer.
+- Careers: brand management, corporate design, product development (PLM (Product Lifecycle Management)), IxD/ICT manager, corporate communication, project & account management, IPR (Intellectual Property Rights), innovation, strategy, analytics, marketing/media, design entrepreneurship, knowledge manager, service-systems designer, organisation designer.
 - Organisations that respect designers: design = strategic resource (not decoration); strategy & design managed at each level; business + design knowledge enterprise-wide; vertical & horizontal integration; multiple customer channels; design + marketing integrate experience at all TOUCHPOINTS. "Design is the VOICE OF THE USER."
-- GCCs (Global Capability Centres): 52% plan to expand (Tagged + CII); India 2,117 units, 23 lakh people, ₹9.4 lakh crore, > 50% of global GCC activity; Bengaluru 34–39%, then Hyderabad, Pune, Chennai. Constraint: only 42.6% graduates employable. "Tasks faster but system not smarter" → need SYSTEMS & SERVICES designers. Top jobs: AI flow-process designer, systems & services modeller, front/back-end integrator, AI-HCI researcher, AI-tools designer, services information-systems designer, HCD consultant. GCCs: Intel, Samsung, Rolls-Royce, Micron (Bengaluru); Mercedes-Benz R&D, Bosch (Pune & Bengaluru); Qualcomm (Bengaluru & Hyderabad); Adobe (Bengaluru & Noida).
+- GCCs (Global Capability Centres): 52% plan to expand (Tagged + CII (Confederation of Indian Industry)); India 2,117 units, 23 lakh people, ₹9.4 lakh crore, > 50% of global GCC activity; Bengaluru 34–39%, then Hyderabad, Pune, Chennai. Constraint: only 42.6% graduates employable. "Tasks faster but system not smarter" → need SYSTEMS & SERVICES designers. Top jobs: AI (Artificial Intelligence) flow-process designer, systems & services modeller, front/back-end integrator, AI-HCI (Human–Computer Interaction) researcher, AI-tools designer, services information-systems designer, HCD (Human-Centred Design) consultant. GCCs: Intel, Samsung, Rolls-Royce, Micron (Bengaluru); Mercedes-Benz R&D, Bosch (Pune & Bengaluru); Qualcomm (Bengaluru & Hyderabad); Adobe (Bengaluru & Noida).
 
 # 1.7 BS 7000 standards
 | Standard | Topic |
@@ -56,16 +56,16 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 | 7000-5:2001 | Managing obsolescence |
 | 7000-6:2005 | Inclusive design |
 | 7000-10:1995 | Glossary |
-| BS 8888:2006 · BS 7373-3:2005 · BS 8887:2006 | Technical product specification · service-offering specs · design for manufacture |
+| BS (British Standard) 8888:2006 · BS 7373-3:2005 · BS 8887:2006 | Technical product specification · service-offering specs · design for manufacture |
 - Assignment 1: DESIGN AUDIT of a college cultural event — interview the organising secretary; 10 most critical shortcomings; table: shortcoming | reason (communication, coordination, incomplete planning) | what to do next time. Teams of 2.
 
 # UNIT 2 — ORGANISATIONS, CORE COMPETENCE, VISION & MISSION (1 Sep)
 
 # 2.1 Organisation and core competency
-- ORGANISATION: people sharing interests come together for a PURPOSE and produce together. Like humans: grow or die (infancy → adolescence → maturity → middle age → decline). Growth must be planned and needs a strategy; competitive edge comes from CORE COMPETENCIES; design is becoming a core competency. Types: company, industry, corporate, NGO, govt, institution, private, society, guild, club, professional body, startup.
+- ORGANISATION: people sharing interests come together for a PURPOSE and produce together. Like humans: grow or die (infancy → adolescence → maturity → middle age → decline). Growth must be planned and needs a strategy; competitive edge comes from CORE COMPETENCIES; design is becoming a core competency. Types: company, industry, corporate, NGO (Non-Governmental Organisation), govt, institution, private, society, guild, club, professional body, startup.
 - CORE COMPETENCY (C.K. Prahalad & Gary Hamel): ability to be especially good at an activity = individual skills + experience harnessed to resources (information, technology).
 - 3 tests: (1) hard to IMITATE, (2) REUSABLE across products/markets, (3) adds END-CUSTOMER value.
-- Examples: Tata — low-cost efficient manufacturing & design + brand trust + leadership; Apple — hardware–software integration, design & UX, ecosystem, supply chain, brand equity (rivals can't copy the whole); IITG DoD — designers who are technocrats, UI/UX pioneers. Make DESIGN your startup's core competency. Design as mere cosmetics = underselling.
+- Examples: Tata — low-cost efficient manufacturing & design + brand trust + leadership; Apple — hardware–software integration, design & UX (User Experience), ecosystem, supply chain, brand equity (rivals can't copy the whole); IITG DoD — designers who are technocrats, UI/UX pioneers. Make DESIGN your startup's core competency. Design as mere cosmetics = underselling.
 
 # 2.2 Building blocks, vision, goals, purpose
 - Building blocks: MISSION, VISION, GOAL, OBJECTIVE, TARGET, PLAN, STRATEGY, TACTICS.
@@ -128,9 +128,9 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 - Tools: PESTLE (Political, Economic, Social, Technological, Legal, Environmental); SWOT (internal S/W, external O/T); gap analysis; lean one-page plan (problem, solution, market, revenue, costs, metrics, team, funding, risks); MVP/experiment canvas; product–market fit canvas (value proposition ↔ customer segment).
 
 # 4.2 Startup fundamentals
-- MVP: fastest test of a product hypothesis (can be a landing page/ads/sign-up). Traditional wheel→axle→car (unhappy till end) vs MVP skateboard→scooter→bicycle→motorbike→car (happy at each stage).
-- Product discovery canvas: vision · users & personas (AARRR: Acquisition, Activation, Retention, Revenue, Referral) · goals · success measures · timeframe · product stories (story map) · validate (want it? buy it?) · learn (build–measure–learn; pivot or persevere).
-- Terms: KPI, USP, ROI, SEM. Competitor SWOT (buy rival product, give to users, observe).
+- MVP (Minimum Viable Product): fastest test of a product hypothesis (can be a landing page/ads/sign-up). Traditional wheel→axle→car (unhappy till end) vs MVP skateboard→scooter→bicycle→motorbike→car (happy at each stage).
+- Product discovery canvas: vision · users & personas (AARRR (Acquisition, Activation, Retention, Referral, Revenue): Acquisition, Activation, Retention, Revenue, Referral) · goals · success measures · timeframe · product stories (story map) · validate (want it? buy it?) · learn (build–measure–learn; pivot or persevere).
+- Terms: KPI (Key Performance Indicator) · USP (Unique Selling Proposition) · ROI (Return on Investment) · SEM (Search Engine Marketing). Competitor SWOT (Strengths, Weaknesses, Opportunities, Threats): buy the rival product, give it to users, observe.
 | Killing zone | Cause → result |
 | Team | Weak dynamics → dysfunction |
 | Market | No need → no customers |
@@ -142,25 +142,25 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 [FIG:fig/dm_034_8.jpg|Startup killing zones: team, market, product, timing, capital]
 # 4.3 Company type, registration, pitching, consultancy
 - 3 irreversible decisions: (1) TYPE — Pvt Ltd (scalable, investor-preferred), LLP (flexible, low compliance, no equity funding), OPC (solo, limited liability, full control), partnership/proprietorship (easy, not scalable, ~₹40 lakh ceiling); (2) OWNERSHIP, roles & equity; (3) BRAND identity — name, trademark, domain, handles (register early).
-- Registration: type → DSC → DIN → name reservation → MoA & AoA → SPICe+ → Certificate of Incorporation → PAN & TAN → bank account → INC-20A within 180 days. Golden rule: separate personal and company finances.
-- Licences: GST (GSTN/CBIC), Shop & Establishment (state labour dept), trade licence (municipality), FSSAI (food), IEC (DGFT, import/export), professional tax, Udyam (MSME).
+- Registration: type → DSC (Digital Signature Certificate) → DIN (Director Identification Number) → name reservation → MoA & AoA → SPICe+ → Certificate of Incorporation → PAN (Permanent Account Number) & TAN (Tax Deduction and Collection Account Number) → bank account → INC-20A within 180 days. Golden rule: separate personal and company finances.
+- Licences: GST (GSTN/CBIC), Shop & Establishment (state labour dept), trade licence (municipality), FSSAI (food), IEC (DGFT (Directorate General of Foreign Trade), import/export), professional tax, Udyam (MSME (Micro, Small and Medium Enterprises)).
 - 30-s pitch: hook 5 s → problem 10 s → solution 10 s → call to action 5 s. 1-min: hook, problem, solution, traction, market, team, ask. Deck: purpose, problem, solution, demo, market size, business model, unfair advantage, competition, marketing, team, traction, contact.
 - FOUNDERS: Focus, Obsess over customer, Urgency, Numbers, Discipline, Empathy, Resilience, Systems.
-- Class startup example: AI learning companion for children with dyslexia/dyscalculia/dysgraphia (~18% students; > 3 crore aged 6–15 in India; TRL 4).
+- Class startup example: AI learning companion for children with dyslexia/dyscalculia/dysgraphia (~18% students; > 3 crore aged 6–15 in India; TRL (Technology Readiness Level) 4).
 - Solo consultancy: office (1 yr before registering), portfolio/website, fees by value, experience, client size, deliverables, ability to pay, demand, currency, time. FIXED price (earn more; risk of overrun) vs HOURLY (stability) vs RETAINER. "You pay for my PROCESS"; quote on paper, signed contract, payment terms, inclusions/exclusions.
 - Assignment 2: startup business plan, ≤ 4 members, 20–30 pages + PPT, references/AI prompts in annexure.
 
 # UNIT 5 — PLC & DATA ANALYTICS (4 Sep)
 
 # 5.1 Product management and PLC
-- Product management in DM: product planning & development (R&D, usability engg.), brand management (positioning, image, visual communication), corporate planning (user tracking, competition, strategy, policy), PLC monitoring (feedback, ROI, design audit, documentation). Project life-cycle wheel: planning → concept → detailed design → construction → operations & maintenance → benchmark vs brief.
+- Product management in DM: product planning & development (R&D, usability engg.), brand management (positioning, image, visual communication), corporate planning (user tracking, competition, strategy, policy), PLC (Product Life Cycle) monitoring (feedback, ROI, design audit, documentation). Project life-cycle wheel: planning → concept → detailed design → construction → operations & maintenance → benchmark vs brief.
 - PLC stages: introduction → growth → maturity → decline → death/abandonment. Introduction = high cost, NEGATIVE cash flow; profit peaks BEFORE sales (LAG); ROR slope = rate of return.
 - Strategies: (1) BY DESIGN — innovation restarts the PLC, or renovate/discount; (2) re-advertise as improved/imported; (3) buy out a competing brand; (4) free service for life/discount; (5) buy one get one (dead inventory). PLC analysis is a full-time job; designers increasingly do it.
 
 [FIG:fig/dm_042_9.jpg|Product life cycle: cost, sales revenue, net revenue and cash flow]
 [FIG:fig/dm_043_10.jpg|Strategy 1 — innovation restarts the product life cycle]
 # 5.2 Business analytics
-- BA: skills, technologies, practices for iterative exploration of past performance (statistics, descriptive & predictive modelling) → insight & planning. Answers: why happening? if trends continue? what next? best possible (optimise)? expectations, future sales, quality, best suppliers/customers, campaigns.
+- BA (Business Analytics): skills, technologies, practices for iterative exploration of past performance (statistics, descriptive & predictive modelling) → insight & planning. Answers: why happening? if trends continue? what next? best possible (optimise)? expectations, future sales, quality, best suppliers/customers, campaigns.
 | Type (Gartner) | Question | Output |
 | Descriptive | What happened? (hindsight) | Dashboards, reports |
 | Diagnostic | Why did it happen? | Analytic dashboard |
@@ -169,15 +169,15 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 - Data science = maths ∩ technology/hacking ∩ business acumen (designers master business). Designer's unique role: INTERPRET output, SPECIFY VARIABLES, SPOT PATTERNS OF BEHAVIOUR.
 - Data mining: statistics on large data to find patterns (collection → selection/exploration → mining → analysis → patterns → interpretation). Uses: risk, retargeting, market-basket/affinity, clustering, competition, profiling, target groups.
 - Predictive analytics: unrecognised relationships in structured/unstructured data + external factors → future events (gather → forecast → action). Designers need statistics; Excel (pivot, goal seek, conditional formatting, INDEX-MATCH, waterfall, forecasting).
-- DIKW: data → information → skill → knowledge → insight → wisdom. Tools: SAS, R, SPSS, SQL, Excel dashboards. Data on users, competition, company health/performance, politics/policy → investment in innovation.
-- Models: linear (relationship), generalised additive (non-parametric), logistic regression (class probability), survival (reliability), decision trees (segment population), Bayesian (conditional probability). ML: supervised, unsupervised, reinforcement. Data structures (trees, stacks, arrays, heap, linked list) and algorithms (sort, search, hashing, DP…) → models for predicting.
+- DIKW (Data, Information, Knowledge, Wisdom): data → information → skill → knowledge → insight → wisdom. Tools: SAS (Statistical Analysis System), R, SPSS (Statistical Package for the Social Sciences), SQL (Structured Query Language), Excel dashboards. Data on users, competition, company health/performance, politics/policy → investment in innovation.
+- Models: linear (relationship), generalised additive (non-parametric), logistic regression (class probability), survival (reliability), decision trees (segment population), Bayesian (conditional probability). ML (Machine Learning): supervised, unsupervised, reinforcement. Data structures (trees, stacks, arrays, heap, linked list) and algorithms (sort, search, hashing, DP…) → models for predicting.
 
 [FIG:fig/dm_044_11.jpg|The fields of data science]
 # UNIT 6 — BRAND MANAGEMENT (7 Sep)
 
 # 6.1 Brand meaning
-- Origin: Norse "brandr" = to burn (cattle marks; Egyptian 2000 BC; RFID today). Grew from need for ATTENTION among competitors → STRATEGIC WEAPON; needs design beyond arts & graphics.
-- AMA: "name, term, sign, symbol or design, or combination, to identify goods/services and DIFFERENTIATE them from competitors"; Kotler: identifies maker/seller.
+- Origin: Norse "brandr" = to burn (cattle marks; Egyptian 2000 BC; RFID (Radio-Frequency Identification) today). Grew from need for ATTENTION among competitors → STRATEGIC WEAPON; needs design beyond arts & graphics.
+- AMA (American Marketing Association): "name, term, sign, symbol or design, or combination, to identify goods/services and DIFFERENTIATE them from competitors"; Kotler: identifies maker/seller.
 - Trademark/name/logo ≠ brand (they are IDENTITIES); brand is abstract; brands have NO EXPIRY (unlike IPR).
 | Six levels | Mercedes-Benz |
 | Attribute | Well built, engineered, durable |
@@ -221,7 +221,7 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 | Barron 1961 | New combinations out of the existing |
 | Khandwalla 1988 | A state of mind |
 | Hurlock 1978 | Personal achievement of uniqueness |
-- Output visible, process buried; understood by playful indulgence, metacognition. A measurable form of intelligence. Ideas = ideation; creativity drives innovation; fuels DT's ideation stage.
+- Output visible, process buried; understood by playful indulgence, metacognition. A measurable form of intelligence. Ideas = ideation; creativity drives innovation; fuels DT (Design Thinking)'s ideation stage.
 - Ideas come in a FLASH when relaxed (72% in shower; Kekulé's benzene snake dream; Archimedes' buoyancy) → keep a journal; train the mind. Myths: not academic intelligence; not "crazy" — a human DNA trait in all; neurodivergent think differently.
 - ABDUCTIVE thinking; synthesis; left brain (logic, language, numbers, analysis) + right brain (imagination, spatial, music, art) — designers need both (Stroop test). Education curtails creativity.
 - Process: AWARENESS → INCUBATION → ILLUMINATION → VERIFICATION (creativity) → IMPLEMENTATION → MARKETING & SELLING (innovation; Kotler). Link governed by commerce.
@@ -230,7 +230,7 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 
 [FIG:fig/dm_060_16.jpg|Creativity process: awareness → incubation → illumination → verification → implementation → marketing]
 # 7.2 Design thinking
-- d.school: EMPATHISE → DEFINE → IDEATE → PROTOTYPE → TEST (Prof. Yammiyavar: textbooks made DT a buzzword). Better: problem space (understand, observe, POV) → solution space (ideate, prototype, test), diverge–converge.
+- d.school: EMPATHISE → DEFINE → IDEATE → PROTOTYPE → TEST (Prof. Yammiyavar: textbooks made DT a buzzword). Better: problem space (understand, observe, POV (Point of View)) → solution space (ideate, prototype, test), diverge–converge.
 - Characteristics: designerly thinking at each step; human-centred EMPATHY (not sympathy); observing & questioning; CRITICAL thinking to define the real problem; cross-domain ideation by ABDUCTION; hands-on prototyping (fail early); tests to validate. Whole 4-year design curriculum = DT.
 - Methods of THINKING (mental) vs DOING (physical). Double Diamond (UK): DIVERGENT (many ideas) → CONVERGENT (best solution). DT = diverge-converge; futures thinking = diverge.
 - DT cannot guarantee success. IDEA ≠ CONCEPT (concept = representation of idea); not every idea is creative; idea = SEED of a creative solution.
@@ -240,7 +240,7 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 # UNIT 8 — INNOVATION (9 Sep)
 
 # 8.1 Innovation vs creativity vs invention
-- Innovation = PRACTICAL APPLICATION of creative ideas. Drucker: "purposeful, organised search for CHANGE". Kotler: new ideas → SATISFIED CUSTOMERS. Robinson: applied creativity. Jobs: "saying NO to 1000 things". Sweet spot: desirable ∩ feasible ∩ viable; user = reason. India: NITI Aayog index 2022 (Karnataka #1); GII rank 81 (2015) → 40 (2022).
+- Innovation = PRACTICAL APPLICATION of creative ideas. Drucker: "purposeful, organised search for CHANGE". Kotler: new ideas → SATISFIED CUSTOMERS. Robinson: applied creativity. Jobs: "saying NO to 1000 things". Sweet spot: desirable ∩ feasible ∩ viable; user = reason. India: NITI (National Institution for Transforming India) Aayog index 2022 (Karnataka #1); GII (Global Innovation Index) rank 81 (2015) → 40 (2022).
 | Creativity | Innovation |
 | Generating ideas, divergent | Implementing, convergent |
 | Flash of insight | Step-by-step |
@@ -274,20 +274,20 @@ Articulate & defend design without dominating · bridge visionary ideas and prac
 | Copyright | Art, literature, music, art in design, photos | Copyright Act 1957 |
 | Trademark | Marks, names, logos in trade | Trade Marks Act 1999 |
 | Design | Appearance only (not function) | Designs Act 2000 |
-| GI | Place-linked products (Kolhapuri chappal, Mysore silk, Assam tea) | GI Act 1999 |
-| Biodiversity / plant varieties | — | Biodiversity Act 2002; PPV&FR Act 2001 |
+| GI (Geographical Indication) | Place-linked products (Kolhapuri chappal, Mysore silk, Assam tea) | GI Act 1999 |
+| Biodiversity / plant varieties | — | Biodiversity Act 2002; PPV&FR (Protection of Plant Varieties and Farmers' Rights) Act 2001 |
 - UTILITY patents needed for designers (kitchen tools, robots, displays, health devices, prosthetics, apps/UI); Indian Act suits mechanical inventions; US/China have utility category. US: utility 20 yrs, design ~15 yrs, plant 20 yrs.
 - Enforcement: civil, criminal, administrative, technological (simultaneous; damages). Copyright infringement = CRIMINAL offence (magistrate complaint or police FIR).
-- Authority: Ministry of Commerce & Industry → Controller General of Patents, Designs & Trade Marks → Designs (Kolkata), Patent offices (Kolkata, Delhi, Mumbai, Chennai), TM registry (+ Ahmedabad), GI registry (Chennai), Patent Info Service (Nagpur). Facilitation: TIFAC, NRDC.
+- Authority: Ministry of Commerce & Industry → Controller General of Patents, Designs & Trade Marks → Designs (Kolkata), Patent offices (Kolkata, Delhi, Mumbai, Chennai), TM registry (+ Ahmedabad), GI registry (Chennai), Patent Info Service (Nagpur). Facilitation: TIFAC (Technology Information, Forecasting and Assessment Council), NRDC (National Research Development Corporation).
 
 [FIG:fig/dm_076_22.jpg|IPR authority in India]
 # 9.2 Patents, copyright, design, trademarks, management
 - Patent = contract inventor ↔ government: exclusive rights for full disclosure. Conditions: NOVELTY (not in global state of art), INVENTIVENESS (non-obvious to expert), USEFULNESS. Term 20 years; licensable. Procedure: file → examination & novelty search → accept/refuse → Gazette notification → opposition → grant.
 - Not patentable: food/medicine/chemical substances (per slide), discovery of principle (Raman effect), new use/property of known substance, mere admixture, mere rearrangement of known devices, testing methods, agriculture/horticulture methods, medical treatment processes, atomic energy.
-- COPYRIGHT: protects EXPRESSION not idea/content; automatic (registration advisable as proof); life + 60 years; covers sketches, drawings, software, UI, animation, typography, colour combinations, lectures, theses.
+- COPYRIGHT: protects EXPRESSION not idea/content; automatic (registration advisable as proof); life + 60 years; covers sketches, drawings, software, UI (User Interface), animation, typography, colour combinations, lectures, theses.
 - DESIGN PATENT/registration: form & appearance only; iPhone shape = design patents, swipe-to-unlock = utility patent; DRAWINGS define boundaries → keep dated sketches.
 - TRADEMARK: source indicator (word, phrase, symbol, design, domain, GI); logos are protectable.
-- Managing IPR: case diary/sketch book — numbered pages, no overwriting, signed & witnessed; don't publish before filing; NDAs; disclose only what the form needs; legal advice. Know-how = trade secret; NDA before demos.
+- Managing IPR: case diary/sketch book — numbered pages, no overwriting, signed & witnessed; don't publish before filing; NDAs (Non-Disclosure Agreements); disclose only what the form needs; legal advice. Know-how = trade secret; NDA before demos.
 - CREATIVE COMMONS (2001, Lessig): "some rights reserved". Licences (most → least open): BY, BY-SA, BY-ND, BY-NC, BY-NC-SA, BY-NC-ND (BY attribution, SA share-alike, NC non-commercial, ND no derivatives).
 - AI & IPR: only HUMANS are creators (AI artwork authorship rejected — DABUS). AI tools: The Lens, PatentPal, Clarivate, TrademarkNow, Markify, Turnitin, Copyleaks.
 

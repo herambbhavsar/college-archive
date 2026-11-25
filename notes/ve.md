@@ -11,8 +11,8 @@ Reduced revision notes for Visual Ergonomics (OE3D16), following the syllabus to
 | Era | Visual demand |
 | Agricultural (till late 1800s) | Distance, daylight |
 | Industrial (late 1870s, light bulb) | Night viewing; driving (distance + intermediate); near inspection of dials |
-| Information (mid-20th c.) | Self-illuminated VDT, awkward angle and distance — shift in < 100 years |
-- Stats: computer users 10% (1980) → 80%+; 1991 Harris poll — eyestrain No. 1 office complaint; 1991 NIOSH — 88% of 66 million (>3 h/day) had eyestrain; 2004 survey — 61% worried. Eyestrain overtook carpal tunnel but is painless/slow → misdiagnosed. Children not considered. Future: computer glasses; output always visual.
+| Information (mid-20th c.) | Self-illuminated VDT (Video Display Terminal), awkward angle and distance — shift in < 100 years |
+- Stats: computer users 10% (1980) → 80%+; 1991 Harris poll — eyestrain No. 1 office complaint; 1991 NIOSH (National Institute for Occupational Safety and Health) — 88% of 66 million (>3 h/day) had eyestrain; 2004 survey — 61% worried. Eyestrain overtook carpal tunnel but is painless/slow → misdiagnosed. Children not considered. Future: computer glasses; output always visual.
 
 # T2 Special about the senses
 - Vision dominates; takes in a LARGE amount SIMULTANEOUSLY; eye catches light → nerve signals → brain builds the picture.
@@ -120,7 +120,7 @@ Reduced revision notes for Visual Ergonomics (OE3D16), following the syllabus to
 | Bell | Good / good in low-freq noise |
 | Buzzer, chimes | Fair |
 | Oscillator | Good if intermittent |
-- Railway form: fields in action order (journey → passengers → contact → payment); clear left labels; avoid confusable PNR characters; digital for exact values; status AVAILABLE/RAC/WL with colour + text.
+- Railway form: fields in action order (journey → passengers → contact → payment); clear left labels; avoid confusable PNR (Passenger Name Record) characters; digital for exact values; status AVAILABLE / RAC (Reservation Against Cancellation) / WL (Waiting List) with colour + text.
 
 # T9 & T11 Pesticide packaging; critical context (verify)
 - Pesticides: low-literacy farmers, sun, gloves → pictograms, toxicity colour TRIANGLE (red extremely, yellow highly, blue moderately, green slightly toxic), local language, visual dose, non-food shape, child-resistant cap.
@@ -129,7 +129,7 @@ Reduced revision notes for Visual Ergonomics (OE3D16), following the syllabus to
 # T12 Better drug labelling for pharmacists (Quinn et al. 2006)
 - 51.5 million dispensing errors/3 billion prescriptions (98.3% accurate); 250/day pharmacy ≈ 4 errors/day; clinically important 1 in 1000.
 - 9 error types (wrong drug, strength, dosage form, quantity, label info, instructions, omission, time, deteriorated) — label influences drug, strength, form, deterioration.
-- Label anatomy: NDC, brand, generic, formulation, strength, quantity, controlled symbol, Rx only, maker, expiry, lot, storage.
+- Label anatomy: NDC (National Drug Code), brand, generic, formulation, strength, quantity, controlled symbol, Rx only, maker, expiry, lot, storage.
 - Key of 30 guidelines: brand name largest; generic slightly smaller; strength & ER near name; NDC on top; expiry/lot on front; horizontal reading; 8th-grade language; dark on light; ≥ 7 pt; one font family; colour redundant; left-aligned; mixed case (WARNING in caps); no italics; no clutter/watermarks; margins; line drawings of tablets; few boxes.
 - New template: low density, black on white, order brand → generic → strength → NDC, red for form/alerts. Test: 20 pharmacists, real bottles + EYE TRACKING, 60 labels, imaginary drug names → "after" labels faster on ALL tasks; biggest gains where old labels were unclear.
 
@@ -189,7 +189,7 @@ Reduced revision notes for Visual Ergonomics (OE3D16), following the syllabus to
 
 # T19 Warnings (Wogalter et al., 150+ studies)
 - 4 elements: SIGNAL WORD, HAZARD, CONSEQUENCE, INSTRUCTION. Signal words: DANGER > WARNING > CAUTION > NOTICE (DEADLY/POISON higher).
-- Red = highest hazard; conspicuity first (size, contrast, flashing); PLACEMENT near hazard, uncluttered; brief but explicit; bullets > paragraphs; pictorials (ISO 67%, ANSI 85% comprehension, ≤ 5% opposite); borders/striped increase urgency; voice increases compliance; false alarms reduce it; familiarity lowers noticing; risk judged by severity; interactive warnings best; older people need larger print; warnings don't reduce buying.
+- Red = highest hazard; conspicuity first (size, contrast, flashing); PLACEMENT near hazard, uncluttered; brief but explicit; bullets > paragraphs; pictorials (ISO (International Organization for Standardization) 67%, ANSI (American National Standards Institute) 85% comprehension, ≤ 5% opposite); borders/striped increase urgency; voice increases compliance; false alarms reduce it; familiarity lowers noticing; risk judged by severity; interactive warnings best; older people need larger print; warnings don't reduce buying.
 - Model: ⚠ DANGER · High voltage · Contact will cause severe burns or death · Keep out — authorised staff only.
 
 # T20 Truck "wide turn" signs (Aurelio & Newman 1997)
@@ -219,7 +219,7 @@ Reduced revision notes for Visual Ergonomics (OE3D16), following the syllabus to
 # T23 Visual ergonomics in voting (Gable et al. 2016)
 - US turnout 31st/34; 2000 Florida BUTTERFLY BALLOT → ~50,000 votes discarded; 11% ballots with errors.
 - Process: one-stop website, voter accounts (recognition not recall), appointments (prediction aiding). Ballot: progress meter (system status), final check (error prevention), receipt & green-tick feedback with actionable error messages, reversibility, accessibility (size, language, audio, tactile), consistent layout, practice ballot, RANDOMISED candidate order (F-pattern bias).
-- India: EVM name + symbol + photo, beep, VVPAT slip 7 s, NOTA last.
+- India: EVM (Electronic Voting Machine) name + symbol + photo, beep, VVPAT (Voter Verifiable Paper Audit Trail) slip 7 s, NOTA (None Of The Above) last.
 
 [FIG:fig/ve_017_84.jpg|The 2000 Florida 'butterfly ballot' — about 50,000 votes discarded (Gable et al. Fig. 1)]
 [FIG:fig/ve_018_85.jpg|Prototype ballot summary page: final check, progress, feedback, back/proceed (Fig. 3)]
@@ -237,7 +237,7 @@ Reduced revision notes for Visual Ergonomics (OE3D16), following the syllabus to
 # UNIT G — HOSPITALS, LAW, TRANSPORT
 
 # T24 Hospital information
-- ED LaunchPoint (Cerner): UCD with 72 ED physicians; pain points (non-actionable icons, clicks, icon key taped on monitor, clutter, >10 s waits). Redesign: one icon per order category + colour progress; note icons (blank/text/green check/pencil); LOS meter digital + colour bar; one modal "drill-down" panel; validated with 12 physicians.
+- ED (Emergency Department) LaunchPoint (Cerner): UCD (User-Centred Design) with 72 ED physicians; pain points (non-actionable icons, clicks, icon key taped on monitor, clutter, >10 s waits). Redesign: one icon per order category + colour progress; note icons (blank/text/green check/pencil); LOS (Length of Stay) meter digital + colour bar; one modal "drill-down" panel; validated with 12 physicians.
 - Urine bag (Indonesia 2026): floats + enlarged high-contrast scale + colour bands → lower error at 2–7 m, reliable distance +2 m (~6.4 m). Small, cheap changes reduce error.
 - Checklists: origin 1935 Boeing 299 crash (gust lock); Johns Hopkins central line (infections 11% → 0%); WHO Surgical Safety Checklist (19 items; complications 11% → 7%). READ-DO vs DO-CONFIRM; benefits (memory, fatigue, standardisation, best practice, teamwork); barriers & solutions (involve users).
 - Medication sheets (Klein & Isaacson): old 9 pt, caps, justified, 12th-grade → new 14 pt, ragged right, plain 9th-grade active language, task order, bold headings, side-effect boxes → faster, more correct, ~90% preferred.
@@ -260,9 +260,9 @@ Reduced revision notes for Visual Ergonomics (OE3D16), following the syllabus to
 [FIG:fig/ve_025_92.jpg|How the collapsing rail trapped a child's neck (Fairbrother et al. Fig. 2)]
 # T27 Bus stand and aircraft interior
 - F-4 night near-crash: "I've got it" misunderstood → nobody flying; Type 1 SPATIAL DISORIENTATION (canals miss < 2°/s² roll); handover protocol. Attitude indicator: moving horizon vs moving aircraft (principle of the moving part); needs FOVEAL fixation. Redesign: context-aware audible "BANK RIGHT" + visual cue; alert early; automatic ground-collision avoidance.
-| Bus stand area | VE solution |
+| Bus stand area | VE (Visual Ergonomics) solution |
 | Route signs | Large sans-serif, bilingual + numerals, eye-level band, no ads |
-| Bus destination boards | LED, 1/200 rule, number + colour + name |
+| Bus destination boards | LED (Light-Emitting Diode), 1/200 rule, number + colour + name |
 | Route maps | Beck-style schematic, You-Are-Here forward-up |
 | Announcements | Audio + visual |
 | Timetables | Grouped, next departure highlighted |

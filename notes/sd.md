@@ -4,7 +4,7 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 # UNIT 1 — SERVICES (L1–L2)
 
 # 1.1 Systems, services, product vs service
-- Designers handle (1) real-world systems made by humans (railways, hospitals, banks) and (2) the ITC systems at the back that run them. They design new, renovate/innovate and upgrade systems (simple/complex, sub-systems, integrated, embedded, nested).
+- Designers handle (1) real-world systems made by humans (railways, hospitals, banks) and (2) the ITC (Information Technology and Communication) systems at the back that run them. They design new, renovate/innovate and upgrade systems (simple/complex, sub-systems, integrated, embedded, nested).
 - SERVICE: organised, coordinated activities fulfilling needs; an INTANGIBLE activity that solves a problem/gives value; customer interacts with a provider (person, product/system, or both). Many services run as systems. e.g., bank account, taxi, flight booking, tea at a café, IIITDMJ admission.
 | Product | Service |
 | I OWN it | I USE it, don't own |
@@ -19,7 +19,7 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 # 1.2 Service design — definition and value exchange
 - DEFINITION: planning and organising the PEOPLE, INFRASTRUCTURE and PROCESSES of a service so the experience is COHERENT for the customer and EFFICIENT for the business.
 - Objective: more USEFUL, USABLE, DESIRABLE for clients; EFFICIENT, EFFECTIVE for organisations. Designs FRONTSTAGE with BACKSTAGE. Output: implementable designs (documents, mock-ups, metrics) + operational changes. People, PROPS (touchpoints), processes. Holistic — new and existing services.
-- SD = UI + UX + IxD + CX + PD + Design Management. "These don't happen by chance; they have to be built in."
+- SD (Service Design) = UI (User Interface) + UX (User Experience) + IxD (Interaction Design) + CX (Customer Experience) + PD (Product Design) + Design Management. "These don't happen by chance; they have to be built in."
 - Value exchange: provider gives money, labour, information, material, infrastructure, energy → SERVICE ← customer pays; value comes through EXPERIENCE. Approach: human-centred, collaborative, interdisciplinary, iterative (research, prototyping, visualisation).
 - Examples: platform services (rides, delivery), consumer services (salon, gym, laundry, tutoring), India's 3-tier health system, e-commerce types (B2B, B2C, C2C, C2B, B2G), citizen–government layers (experience, touchpoints, delivery, foundations, mandate), community and business services (banking, insurance, transport, telecom).
 
@@ -45,7 +45,7 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 - COMMERCE = transaction (pay → get goods); SERVICE = investing in the EXPERIENCE around it (friction with marketing/sales).
 - Satisfaction = EXPECTATION vs EXPERIENCE: match → satisfied; less → dissatisfied; more → DELIGHTED (pre-service → service → post-service).
 - Designing a service = aesthetics/front end, to please; SERVICE DESIGN goes "underground", aims at delight, reshapes operations and business model. Marketing sells (no personas); SD handles experience, creates personas, plans people, processes, touchpoints.
-- Origin: LYNN SHOSTACK, 1982 HBR "How to Design a Service" — introduced the SERVICE BLUEPRINT. 1991 Köln school teaches SD; 2000s government, healthcare, finance.
+- Origin: LYNN SHOSTACK, 1982 HBR (Harvard Business Review) "How to Design a Service" — introduced the SERVICE BLUEPRINT. 1991 Köln school teaches SD; 2000s government, healthcare, finance.
 
 # 1.5 SD vs UX vs CX vs PD vs DT; layers
 | Discipline | Scope | Focus | Artefacts |
@@ -53,7 +53,7 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 | UX | One digital product/interface | Usability, interaction | Wireframes, prototypes, usability tests |
 | Product design | Product features | Right product | Specs, prototypes |
 | Design thinking | Mindset & process | Method | Varies |
-| CX | Perception across all touchpoints | Measure & improve experience | VoC, NPS, journey maps |
+| CX | Perception across all touchpoints | Measure & improve experience | VoC, NPS (Net Promoter Score), journey maps |
 - Outside-in: experiences → interactions → touchpoints → procedures → systems. Nesting SD ⊃ CX ⊃ UX ⊃ UI; strategic → operational: SD → CX → UX → IxD → UI.
 - Layers: MACRO (social system, policy), MESO (organisation strategy), MICRO (person-to-person operations).
 - Core tools: personas, journey maps, service blueprints, stakeholder & ecosystem maps, service prototypes.
@@ -61,10 +61,10 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 [FIG:fig/sd_005_25.jpg|Service design ⊃ CX ⊃ UX ⊃ UI]
 # 1.6 Ecosystem, skills, research areas, ITIL, mini project
 - Ecosystem sets BOUNDARY CONDITIONS; too many variables for a math model. Inputs (politics, economy, expectations, regulation, societal needs, technology) → PEOPLE at centre surrounded by policy, technology & data, partners, institutions & culture, funding, operations → outcomes (value, performance, equity, trust, impact), inside shifting context (political cycle, markets, social, tech, environment, global events).
-- Skill pyramid: high (education, knowledge services) → medium (business, health, trade, transport, public admin) → low (agriculture, manufacturing, HORECA). Skills decide cost; ROI higher in skilled services; scalable in numbers, geography, economic strata. Map external variables (SWOT).
+- Skill pyramid: high (education, knowledge services) → medium (business, health, trade, transport, public admin) → low (agriculture, manufacturing, HORECA (Hotels, Restaurants and Cafés)). Skills decide cost; ROI (Return on Investment) higher in skilled services; scalable in numbers, geography, economic strata. Map external variables (SWOT (Strengths, Weaknesses, Opportunities, Threats)).
 - Research areas (Waseda): function realisation, provider–receiver interaction, service value, provider & receiver activities, provider environment, organisation science, system management, environmental factors.
-- ITIL: service STRATEGY at centre → DESIGN → TRANSITION → OPERATION, wrapped in CONTINUAL IMPROVEMENT. CS meaning of "system design" = computer systems (OSI 7 layers).
-- Mini project: pick-up laptop/phone repair service for Jabalpur institutions (team of 4, DT steps, refer IKEA Kitchen Planner).
+- ITIL (Information Technology Infrastructure Library): service STRATEGY at centre → DESIGN → TRANSITION → OPERATION, wrapped in CONTINUAL IMPROVEMENT. CS (Computer Science) meaning of "system design" = computer systems (OSI (Open Systems Interconnection) 7 layers).
+- Mini project: pick-up laptop/phone repair service for Jabalpur institutions (team of 4, DT (Design Thinking) steps, refer IKEA Kitchen Planner).
 
 # UNIT 2 — SYSTEMS (L3–L4)
 
@@ -75,8 +75,8 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 | Bank | Customers | Accounts | Withdraw, deposit |
 | Inverter | Transformer, PCB, batteries | Voltage, frequency | Storing, converting |
 - Types: natural, artificial, information. State pairs: complex/simple, chaotic/orderly, controlled/self-governing, adaptive/closed, static/dynamic, continuous/discrete. Whole > sum of parts.
-- Levels: meta (universe; e-governance) → super (galaxy; search engines) → system (solar system; network clusters) → sub-system (earth–moon; LAN) → objects (earth; departments).
-- MODEL = analogy + SIMPLIFICATION: user (persona, journey), physical (scale model), mathematical (queue equations). No unique model; designers may enrich visually. Attribute change → relationship change → whole system changes. OOP: objects in CLASSES with methods. BOUNDARY cuts links → input–output function.
+- Levels: meta (universe; e-governance) → super (galaxy; search engines) → system (solar system; network clusters) → sub-system (earth–moon; LAN (Local Area Network)) → objects (earth; departments).
+- MODEL = analogy + SIMPLIFICATION: user (persona, journey), physical (scale model), mathematical (queue equations). No unique model; designers may enrich visually. Attribute change → relationship change → whole system changes. OOP (Object-Oriented Programming): objects in CLASSES with methods. BOUNDARY cuts links → input–output function.
 - DETERMINISTIC (fully set by inputs — calculator) vs STOCHASTIC (probabilistic — delivery time). Most design systems are stochastic but users expect deterministic.
 
 # 2.2 Characteristics, analysis, systems thinking
@@ -90,20 +90,20 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 | Optimise parts | Improve RELATIONSHIPS among parts |
 | Many independent initiatives | Few coordinated sustained changes |
 - Roots: systems theory (Bertalanffy), economics, sociology (Luhmann), ecology (Capra, Meadows), communication (Bateson), chaos theory (Mandelbrot, Prigogine). Example: college-gate traffic — fix timings, drop-off bay, not just blame drivers.
-- Usability engineer (ISO) tasks: gather requirements; define usability goals; model interactions; design UI; heuristic evaluation, task analysis; test & certify quality; work with software teams.
+- Usability engineer (ISO (International Organization for Standardization)) tasks: gather requirements; define usability goals; model interactions; design UI; heuristic evaluation, task analysis; test & certify quality; work with software teams.
 
 # 2.3 Information systems and phases
-- IS components: PEOPLE, PROCEDURES, DATA, SOFTWARE, HARDWARE. Supersystem: CRM (sales, accounts, product info, support) + finance + manufacturing + HR. Designer = front end; IT = back end; FULL-STACK developer integrates.
+- IS components: PEOPLE, PROCEDURES, DATA, SOFTWARE, HARDWARE. Supersystem: CRM (sales, accounts, product info, support) + finance + manufacturing + HR (Human Resources). Designer = front end; IT = back end; FULL-STACK developer integrates.
 | Level (library) | User | Information |
 | Strategic | Director | Budget, expansion, digitisation |
 | Tactical | Librarian | Borrowing trends, losses, staff, orders |
 | Operating | Clerk, student | Issue/return, notices, daily stats |
 | IS type | Does |
-| TPS | Records transactions (ATM withdrawal) |
-| MIS | Reports from TPS for control |
-| EIS | Strategic info for executives |
-| DSS | "What if" decision support (AI-related) |
-- Good IS: expandable, flexible, modular, secure, viable, common database, reliable, usable. Analyst skills: technical (computers, languages, networks, DBMS, OS, CASE) + business (processes, structure, culture). Job titles: analyst, system designer, architect · UX/IxD/HCI-AI designer, information architect.
+| TPS (Transaction Processing System) | Records transactions (ATM withdrawal) |
+| MIS (Management Information System) | Reports from TPS for control |
+| EIS (Executive Information System) | Strategic info for executives |
+| DSS (Decision Support System) | "What if" decision support (AI (Artificial Intelligence)-related) |
+- Good IS: expandable, flexible, modular, secure, viable, common database, reliable, usable. Analyst skills: technical (computers, languages, networks, DBMS (Database Management System), OS, CASE) + business (processes, structure, culture). Job titles: analyst, system designer, architect · UX/IxD/HCI-AI designer, information architect.
 | Phase | Activities |
 | Planning | Problem, scope, feasibility, schedule, staff, launch |
 | Analysis | Gather info, requirements, discovery prototypes, priorities, alternatives |
@@ -115,7 +115,7 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 
 # 3.1 Field research and methodology
 - Field data (maternity counselling ward): ethnography, interviews, co-creation, photo/media, field notes → sticky wall → MAPS & DIAGRAMS → system levels (clinic → municipality → insurance, national plans, NGOs).
-- Methodology: real-world physical services → mapped, analysed, modelled → computing/virtual services → integrated → designed service system. L5–6 tools: personas, journey maps, blueprints, stakeholder/ecosystem maps, prototypes. L7–8: IS analysis, UML, OOP, JavaScript, Figma, AI tools.
+- Methodology: real-world physical services → mapped, analysed, modelled → computing/virtual services → integrated → designed service system. L5–6 tools: personas, journey maps, blueprints, stakeholder/ecosystem maps, prototypes. L7–8: IS analysis, UML (Unified Modeling Language), OOP, JavaScript, Figma, AI tools.
 - AI maps need ground-level data; IoT is a role for service designers; complexity mapped in LEVELS 1–5.
 
 # 3.2 Personas and empathy map
@@ -132,7 +132,7 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 # 3.3 Journey, story, ecosystem and stakeholder maps
 - JOURNEY MAP: existing = how users experience now; new = how users must be guided, with emotions flowing positively. No standard format — tell a STORY visually. Steps: goals → research → empathy map → touchpoints & channels → team brainstorm → sketch → refine → share. Rows: stages, needs/activities, expectations, EMOTION curve, opportunities. (Booking.com guest experience map.)
 - USER STORY MAP: time left→right; ACTIVITIES (backbone) → TASKS (walking skeleton) → STORIES by priority, sliced into RELEASES.
-- ECOSYSTEM MAP (NN/g home buying: buyer at centre, family, agent, banks, inspector, builder, seller…). Assignment: campus ecosystem for a new student (hostel, mess, library, medical, bank, transport, etc.).
+- ECOSYSTEM MAP (NN/g (Nielsen Norman Group) home buying: buyer at centre, family, agent, banks, inspector, builder, seller…). Assignment: campus ecosystem for a new student (hostel, mess, library, medical, bank, transport, etc.).
 - STAKEHOLDER MAP (motivation / give-and-take matrix): roles and relationships; influence × interest quadrant; find partners and blockers; concentric (core staff → customers → constituents → suppliers, alliances).
 
 [FIG:fig/sd_030_26.jpg|Ecosystem map — buying a home (NN/g)]
@@ -154,7 +154,7 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 | User's experience: does, thinks, feels | Service behind it: processes, people, systems |
 | Find experience opportunities | Find bottlenecks, improve delivery |
 - TASK FLOWS link blueprint to back-end (first modelling skill): "find a service", "book a slot". Flowchart symbols: oval start/end, parallelogram I/O, rectangle process, diamond decision; SWIM LANES for many actors. Prototypes: storyboards, role-play, walkthroughs, co-creation.
-- Figma design system (7): tokens → base components → variants/states → patterns → documentation → publish library → govern & scale. System-design awareness: latency/throughput, CAP theorem, load balancing, caching, sharding, replication, scaling; NGINX, Redis, CDNs, S3, Docker/Kubernetes, Kafka; microservices, circuit breaker; health checks, failover, monitoring.
+- Figma design system (7): tokens → base components → variants/states → patterns → documentation → publish library → govern & scale. System-design awareness: latency/throughput, CAP theorem, load balancing, caching, sharding, replication, scaling; NGINX, Redis, CDNs (Content Delivery Networks), S3, Docker/Kubernetes, Kafka; microservices, circuit breaker; health checks, failover, monitoring.
 
 [FIG:fig/sd_034_28.jpg|Anatomy of a service blueprint (Izac Ross)]
 [FIG:fig/sd_035_29.jpg|Journey map vs service blueprint]
@@ -175,7 +175,7 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 [FIG:fig/sd_040_31.jpg|Integrating front end with back end]
 # 4.2 Context diagram, DFD, levelling, rules
 - Notations: context diagrams, document flow diagrams, DFDs, E-R diagrams.
-| DFD element | Symbol | Rule |
+| DFD (Data Flow Diagram) element | Symbol | Rule |
 | Process | Circle/rounded rectangle | Number + verb name; ≥1 input & output |
 | Data flow | Arrow | Noun name |
 | Data store | Open rectangle "D1" | Number + noun |
@@ -197,7 +197,7 @@ Reduced revision notes for Service Design (3009, Prof. Pradeep Yammiyavar). All 
 | Attribute | Oval | Property (vendor code, qty) |
 - DFD focus = PROCESSES; E-R focus = DATA. CARDINALITY 1:1, 1:N, N:M. Used for database design, information architecture and UI screen sequences (burger → fries? → drink? → pay). Advanced attribute types/EER = IT experts.
 - UML: use cases = ovals; actors = stick figures (college registration, ACME bank — "insufficient funds" extends withdraw). OOP chart: classes with attributes and links.
-- AI: non-agentic (input → LLM → output) vs agentic (plan, tools, evaluate, revise) vs AI agents (goal → plan → act → evaluate → feedback). Patterns: multi-agent, self-reflection, tool use, CodeAct, agentic RAG, ReAct. LLM: tokens → embeddings → transformer → prediction.
+- AI: non-agentic (input → LLM (Large Language Model) → output) vs agentic (plan, tools, evaluate, revise) vs AI agents (goal → plan → act → evaluate → feedback). Patterns: multi-agent, self-reflection, tool use, CodeAct, agentic RAG (Retrieval-Augmented Generation), ReAct. LLM: tokens → embeddings → transformer → prediction.
 - SYSTEMS APPROACH (7 steps): (1) define THE problem; (2) understand & define the system (entities, boundaries, activities); (3) find variables; (4) relate variables; (5) choices to improve; (6) costs (ROI + ROB) and risk; (7) reconfigure components. e.g., laptop pickup: downtime → loaner pool, daily pickup route, app booking.
 
 [FIG:fig/sd_052_34.jpg|E-R diagrams: entity, relationship, entity]
