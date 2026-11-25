@@ -225,6 +225,17 @@ body.nm .doc{max-width:820px}
 .doc abbr.ab{text-decoration:underline dotted color-mix(in srgb,var(--c) 70%,#888);text-underline-offset:3px;cursor:help;position:relative;outline:none}
 .doc abbr.ab:hover::after,.doc abbr.ab:focus::after{content:attr(data-f);position:absolute;left:50%;bottom:calc(100% + 8px);transform:translateX(-50%);background:#16181d;color:#fff;font:500 12.5px/1.35 Inter,sans-serif;padding:6px 10px;border-radius:8px;white-space:nowrap;z-index:20;box-shadow:0 6px 18px rgb(0 0 0/.18);pointer-events:none}
 @media(max-width:600px){.doc abbr.ab:hover::after,.doc abbr.ab:focus::after{white-space:normal;width:max-content;max-width:70vw}}
+
+.item .t .pdfopen{display:block;border:0;background:none;padding:0;font-weight:600;color:var(--ink);text-align:left;cursor:pointer;font-size:16px}
+.item .t .pdfopen:hover{text-decoration:underline}
+.pv{position:fixed;inset:0;z-index:90;background:#eceef2;display:flex;flex-direction:column}
+.pv[hidden]{display:none}
+.pvh{display:flex;align-items:center;gap:10px;padding:10px max(16px,2vw);background:#fff;border-bottom:1px solid var(--line)}
+.pvh b{flex:1;font-size:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pvh span{color:var(--mute);font-size:13px;white-space:nowrap}
+.pvb{flex:1;overflow:auto;padding:16px;display:flex;flex-direction:column;align-items:center;gap:14px}
+.pvp{flex:none;background:#fff;box-shadow:0 2px 10px rgb(0 0 0/.12);position:relative;display:grid;place-items:center;color:#aaa;font-size:13px}
+.pvp canvas{display:block}
 .toc .thead{position:sticky;top:0;margin:0 -16px 0 -20px;padding:20px 16px 10px 20px;background:#f7f8fa;z-index:2;border-bottom:1px solid var(--line)}
 .tclose{display:none;border:1px solid var(--line);background:#fff;border-radius:8px;padding:0 12px;min-height:36px;align-items:center;font:500 14px Inter,sans-serif}
 .toc .tname{display:flex;justify-content:space-between;align-items:center;gap:8px;font:700 15px Archivo,sans-serif;font-stretch:110%;margin-bottom:12px}
@@ -257,6 +268,7 @@ body.nm .doc{max-width:820px}
   <div class="search"><input id="q" type="search" placeholder="Search notes, files, courses" autocomplete="off" aria-label="Search"><div class="results" id="res"></div></div>
 </div></header>
 <main id="app" class="wrap"></main>
+<div class="pv" id="pv" hidden role="dialog" aria-modal="true" aria-labelledby="pvt"><div class="pvh"><b id="pvt"></b><span id="pvn"></span><button type="button" class="btn sm" id="pvz-">−</button><button type="button" class="btn sm" id="pvz">+</button><button type="button" class="btn sm" id="pvx">Close</button></div><div class="pvb" id="pvb"></div></div>
 <div class="lb" id="lb" hidden><button type="button" class="lbx" id="lbx" aria-label="Close">×</button><img id="lbimg" alt=""><p id="lbcap"></p></div>
 <footer><div class="wrap">Notes, slides, papers, assignments and tests for all four years of B.Des, kept in one place. Sem 5 notes are the revision notes made for the Nov 2026 end-sems.</div></footer>
 <script>
@@ -430,7 +442,7 @@ function itemRow(x){
   const ext=(x.ctype||'').includes('pdf')?'PDF':(x.ctype||'').includes('presentation')||/\.pptx?$/i.test(x.title)?'PPT':(x.ctype||'').startsWith('image')?'IMG':x.url?'LINK':x.kind==='assignment'||x.status?'TASK':'BOOK';
   const href=safeUrl(x.url||(x.asset?'/_blob/'+x.asset:''));
   const st=x.kind==='assignment'||x.status?(canEdit&&!x.fixed?'<select class="status" data-st="'+esc(x.id)+'" aria-label="Status">'+['todo','in progress','submitted','graded'].map(v=>'<option'+(v===x.status?' selected':'')+'>'+v+'</option>').join('')+'</select>':'<span class="status">'+esc(x.status||'todo')+'</span>'):'';
-  return '<div class="item"><div class="ic">'+ext+'</div><div class="t">'+(href?'<a href="'+esc(href)+'" target="_blank" rel="noopener">'+esc(x.title)+'</a>':'<b>'+esc(x.title)+'</b>')+'<small>'+esc([x.note,x.due?'Due '+x.due:'',x.sizeBytes?(x.sizeBytes>1e6?(x.sizeBytes/1048576).toFixed(1)+' MB':Math.round(x.sizeBytes/1024)+' KB'):'',x.fixed&&x.kind!=='ppt'?'from course notes':'',/^https:\/\/github\.com\//.test(x.url||'')?'opens on GitHub':''].filter(Boolean).join(' · '))+'</small></div>'+st+(canEdit&&!x.fixed?'<button class="x" data-del="'+esc(x.id)+'" aria-label="Remove">×</button>':'')+'</div>';
+  const own=/^pdf\//.test(href);return '<div class="item"><div class="ic">'+ext+'</div><div class="t">'+(own?'<button type="button" class="pdfopen" data-pdf="'+esc(href)+'" data-t="'+esc(x.title)+'">'+esc(x.title)+'</button>':href?'<a href="'+esc(href)+'" target="_blank" rel="noopener">'+esc(x.title)+'</a>':'<b>'+esc(x.title)+'</b>')+'<small>'+esc([x.note,x.due?'Due '+x.due:'',x.sizeBytes?(x.sizeBytes>1e6?(x.sizeBytes/1048576).toFixed(1)+' MB':Math.round(x.sizeBytes/1024)+' KB'):'',x.fixed&&x.kind!=='ppt'?'from course notes':'',/^https:\/\/github\.com\//.test(x.url||'')?'opens on GitHub':''].filter(Boolean).join(' · '))+'</small></div>'+st+(canEdit&&!x.fixed?'<button class="x" data-del="'+esc(x.id)+'" aria-label="Remove">×</button>':'')+'</div>';
 }
 function addForm(c,k){const lab=KINDS.find(x=>x[0]===k)[1];return '<form class="form" data-add="'+k+'"><b>Add to '+esc(lab)+'</b><div class="row"><label>Title<input name="title" required></label><label>File (PDF, image, ≤ 20 MB)<input name="file" type="file" accept=".pdf,image/*,.md,.txt,.csv"></label><label>…or link (Drive, YouTube)<input name="url" type="url" placeholder="https://"></label></div><div class="row"><label>Note<input name="note" placeholder="e.g. 2024 end-sem, Lecture 3"></label>'+(k==='assignment'?'<label>Due date<input name="due" type="date"></label>':'')+'</div><div><button class="btn pri">Add</button> <span class="msg"></span></div><div class="note">PPTs over 20 MB: export to PDF, or paste a Google Drive link.</div></form>'}
 function libPane(c,k){
@@ -490,6 +502,27 @@ let st;$('#q').oninput=e=>{clearTimeout(st);st=setTimeout(()=>search(e.target.va
 $('#res').onclick=e=>{const a=e.target.closest('a[data-jump]');$('#res').style.display='none';if(a){const id=a.dataset.jump;setTimeout(()=>{const el=document.getElementById(id);if(el)el.scrollIntoView()},400)}};
 document.addEventListener('click',e=>{if(!e.target.closest('.search'))$('#res').style.display='none'});
 const closeLb=()=>{$('#lb').hidden=true;$('#lbimg').src=''};$('#lb').onclick=e=>{if(e.target.id!=='lbimg')closeLb()};document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('#lb').hidden)closeLb()});
+
+/* ---------- PDF viewer (pdf.js from cdnjs, rendered in-page) ---------- */
+let pdfLib=null;
+function loadScript(u){return new Promise((ok,no)=>{const sc=document.createElement('script');sc.src=u;sc.onload=ok;sc.onerror=no;document.head.appendChild(sc)})}
+async function getPdfLib(){if(pdfLib)return pdfLib;const B='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/';await loadScript(B+'pdf.min.js');await loadScript(B+'pdf.worker.min.js');pdfLib=window['pdfjs-dist/build/pdf'];pdfLib.GlobalWorkerOptions.workerSrc=B+'pdf.worker.min.js';return pdfLib}
+let pvObs=null,pvDoc=null,pvScale=1;
+async function openPdf(url,title){
+  const pv=$('#pv'),body=$('#pvb');pv.hidden=false;document.body.style.overflow='hidden';$('#pvt').textContent=title;$('#pvn').textContent='Loading…';body.innerHTML='';pvScale=1;$('#pvx').focus();
+  try{const lib=await getPdfLib();const buf=await (await fetch(url)).arrayBuffer();pvDoc=await lib.getDocument({data:buf,disableWorker:true}).promise}catch(e){$('#pvn').textContent='Could not open this PDF.';return}
+  $('#pvn').textContent=pvDoc.numPages+' pages';renderPages();
+}
+function renderPages(){
+  const body=$('#pvb');body.innerHTML='';if(pvObs)pvObs.disconnect();
+  const W=Math.min(body.clientWidth-32,1100)*pvScale;
+  pvObs=new IntersectionObserver(es=>es.forEach(async en=>{if(!en.isIntersecting||en.target.dataset.done)return;en.target.dataset.done=1;const pg=await pvDoc.getPage(+en.target.dataset.p);const v0=pg.getViewport({scale:1});const sc=W/v0.width*(window.devicePixelRatio||1);const vp=pg.getViewport({scale:sc});const cv=document.createElement('canvas');cv.width=vp.width;cv.height=vp.height;cv.style.width=W+'px';cv.style.height=(W*v0.height/v0.width)+'px';en.target.innerHTML='';en.target.appendChild(cv);await pg.render({canvasContext:cv.getContext('2d'),viewport:vp}).promise}),{root:body,rootMargin:'600px 0px'});
+  (async()=>{for(let i=1;i<=pvDoc.numPages;i++){const pg=await pvDoc.getPage(i);const v=pg.getViewport({scale:1});const d=document.createElement('div');d.className='pvp';d.dataset.p=i;d.style.width=W+'px';d.style.height=(W*v.height/v.width)+'px';d.innerHTML='<span>'+i+'</span>';body.appendChild(d);pvObs.observe(d)}})();
+}
+const closePdf=()=>{$('#pv').hidden=true;document.body.style.overflow='';$('#pvb').innerHTML='';if(pvObs)pvObs.disconnect();if(pvDoc){pvDoc.destroy();pvDoc=null}};
+$('#pvx').onclick=closePdf;$('#pvz').onclick=()=>{if(pvDoc){pvScale=Math.min(2.5,pvScale*1.25);renderPages()}};$('#pvz-').onclick=()=>{if(pvDoc){pvScale=Math.max(.5,pvScale/1.25);renderPages()}};
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('#pv').hidden)closePdf()});
+document.addEventListener('click',e=>{const b=e.target.closest('.pdfopen');if(b){e.preventDefault();openPdf(b.dataset.pdf,b.dataset.t)}});
 /* ---------- routing ---------- */
 function route(){
   const h=(location.hash||'#home').slice(1);qstate=null;if(!/^t\d+$/.test(h))document.body.classList.remove('nm');if(spy){spy.disconnect();spy=null}
